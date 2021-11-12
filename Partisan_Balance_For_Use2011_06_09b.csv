@@ -1,0 +1,4101 @@
+"","state","year","govparty_c"
+"1","Alabama",1939,1
+"2","Alabama",1940,1
+"3","Alabama",1941,1
+"4","Alabama",1942,1
+"5","Alabama",1943,1
+"6","Alabama",1944,1
+"7","Alabama",1945,1
+"8","Alabama",1946,1
+"9","Alabama",1947,1
+"10","Alabama",1948,1
+"11","Alabama",1949,1
+"12","Alabama",1950,1
+"13","Alabama",1951,1
+"14","Alabama",1952,1
+"15","Alabama",1953,1
+"16","Alabama",1954,1
+"17","Alabama",1955,1
+"18","Alabama",1956,1
+"19","Alabama",1957,1
+"20","Alabama",1958,1
+"21","Alabama",1959,1
+"22","Alabama",1960,1
+"23","Alabama",1961,1
+"24","Alabama",1962,1
+"25","Alabama",1963,1
+"26","Alabama",1964,1
+"27","Alabama",1965,1
+"28","Alabama",1966,1
+"29","Alabama",1967,1
+"30","Alabama",1968,1
+"31","Alabama",1969,1
+"32","Alabama",1970,1
+"33","Alabama",1971,1
+"34","Alabama",1972,1
+"35","Alabama",1973,1
+"36","Alabama",1974,1
+"37","Alabama",1975,1
+"38","Alabama",1976,1
+"39","Alabama",1977,1
+"40","Alabama",1978,1
+"41","Alabama",1979,1
+"42","Alabama",1980,1
+"43","Alabama",1981,1
+"44","Alabama",1982,1
+"45","Alabama",1983,1
+"46","Alabama",1984,1
+"47","Alabama",1985,1
+"48","Alabama",1986,1
+"49","Alabama",1993,1
+"50","Alabama",1994,1
+"51","Alabama",1999,1
+"52","Alabama",2000,1
+"53","Alabama",2001,1
+"54","Alabama",2002,1
+"55","Alaska",1953,NA
+"56","Alaska",1954,NA
+"57","Alaska",1955,NA
+"58","Alaska",1956,NA
+"59","Alaska",1957,NA
+"60","Alaska",1958,NA
+"61","Alaska",1959,1
+"62","Alaska",1960,1
+"63","Alaska",1961,1
+"64","Alaska",1962,1
+"65","Alaska",1965,1
+"66","Alaska",1966,1
+"67","Alaska",1967,0
+"68","Alaska",1968,0
+"69","Alaska",2003,0
+"70","Alaska",2004,0
+"71","Alaska",2005,0
+"72","Alaska",2006,0
+"73","Alaska",2007,0
+"74","Alaska",2008,0
+"75","Arizona",1937,1
+"76","Arizona",1938,1
+"77","Arizona",1939,1
+"78","Arizona",1940,1
+"79","Arizona",1941,1
+"80","Arizona",1942,1
+"81","Arizona",1943,1
+"82","Arizona",1944,1
+"83","Arizona",1945,1
+"84","Arizona",1946,1
+"85","Arizona",1947,1
+"86","Arizona",1948,1
+"87","Arizona",1949,1
+"88","Arizona",1950,1
+"89","Arizona",1955,1
+"90","Arizona",1956,1
+"91","Arizona",1957,1
+"92","Arizona",1958,1
+"93","Arizona",1965,1
+"94","Arizona",1966,1
+"95","Arizona",1967,0
+"96","Arizona",1968,0
+"97","Arizona",1969,0
+"98","Arizona",1970,0
+"99","Arizona",1971,0
+"100","Arizona",1972,0
+"101","Arizona",1973,0
+"102","Arizona",1974,0
+"103","Arizona",1987,0
+"104","Arkansas",1937,1
+"105","Arkansas",1938,1
+"106","Arkansas",1939,1
+"107","Arkansas",1940,1
+"108","Arkansas",1941,1
+"109","Arkansas",1942,1
+"110","Arkansas",1943,1
+"111","Arkansas",1944,1
+"112","Arkansas",1945,1
+"113","Arkansas",1946,1
+"114","Arkansas",1947,1
+"115","Arkansas",1948,1
+"116","Arkansas",1949,1
+"117","Arkansas",1950,1
+"118","Arkansas",1951,1
+"119","Arkansas",1952,1
+"120","Arkansas",1953,1
+"121","Arkansas",1954,1
+"122","Arkansas",1955,1
+"123","Arkansas",1956,1
+"124","Arkansas",1957,1
+"125","Arkansas",1958,1
+"126","Arkansas",1959,1
+"127","Arkansas",1960,1
+"128","Arkansas",1961,1
+"129","Arkansas",1962,1
+"130","Arkansas",1963,1
+"131","Arkansas",1964,1
+"132","Arkansas",1965,1
+"133","Arkansas",1966,1
+"134","Arkansas",1971,1
+"135","Arkansas",1972,1
+"136","Arkansas",1973,1
+"137","Arkansas",1974,1
+"138","Arkansas",1975,1
+"139","Arkansas",1976,1
+"140","Arkansas",1977,1
+"141","Arkansas",1978,1
+"142","Arkansas",1979,1
+"143","Arkansas",1980,1
+"144","Arkansas",1983,1
+"145","Arkansas",1984,1
+"146","Arkansas",1985,1
+"147","Arkansas",1986,1
+"148","Arkansas",1987,1
+"149","Arkansas",1988,1
+"150","Arkansas",1989,1
+"151","Arkansas",1990,1
+"152","Arkansas",1991,1
+"153","Arkansas",1992,1
+"154","Arkansas",1993,1
+"155","Arkansas",1994,1
+"156","Arkansas",1995,1
+"157","Arkansas",2007,1
+"158","Arkansas",2008,1
+"159","Arkansas",2009,1
+"160","Arkansas",2010,1
+"161","California",1943,0
+"162","California",1944,0
+"163","California",1945,0
+"164","California",1946,0
+"165","California",1947,0
+"166","California",1948,0
+"167","California",1949,0
+"168","California",1950,0
+"169","California",1951,0
+"170","California",1952,0
+"171","California",1953,0
+"172","California",1954,0
+"173","California",1955,0
+"174","California",1956,0
+"175","California",1959,1
+"176","California",1960,1
+"177","California",1961,1
+"178","California",1962,1
+"179","California",1963,1
+"180","California",1964,1
+"181","California",1965,1
+"182","California",1966,1
+"183","California",1969,0
+"184","California",1970,0
+"185","California",1975,1
+"186","California",1976,1
+"187","California",1977,1
+"188","California",1978,1
+"189","California",1979,1
+"190","Colorado",1937,1
+"191","Colorado",1938,1
+"192","Colorado",1943,0
+"193","Colorado",1944,0
+"194","Colorado",1945,0
+"195","Colorado",1946,0
+"196","Colorado",1951,0
+"197","Colorado",1952,0
+"198","Colorado",1953,0
+"199","Colorado",1954,0
+"200","Colorado",1957,1
+"201","Colorado",1958,1
+"202","Colorado",1959,1
+"203","Colorado",1960,1
+"204","Colorado",1961,1
+"205","Colorado",1962,1
+"206","Colorado",1963,0
+"207","Colorado",1964,0
+"208","Colorado",1967,0
+"209","Colorado",1968,0
+"210","Colorado",1969,0
+"211","Colorado",1970,0
+"212","Colorado",1971,0
+"213","Colorado",1972,0
+"214","Colorado",1973,0
+"215","Colorado",1974,0
+"216","Colorado",1999,0
+"217","Colorado",2000,0
+"218","Colorado",2003,0
+"219","Colorado",2004,0
+"220","Colorado",2007,1
+"221","Colorado",2008,1
+"222","Colorado",2009,1
+"223","Colorado",2010,1
+"224","Connecticut",1943,0
+"225","Connecticut",1944,0
+"226","Connecticut",1947,0
+"227","Connecticut",1948,0
+"228","Connecticut",1953,0
+"229","Connecticut",1954,0
+"230","Connecticut",1959,1
+"231","Connecticut",1960,1
+"232","Connecticut",1967,1
+"233","Connecticut",1968,1
+"234","Connecticut",1969,1
+"235","Connecticut",1970,1
+"236","Connecticut",1973,0
+"237","Connecticut",1974,0
+"238","Connecticut",1975,1
+"239","Connecticut",1976,1
+"240","Connecticut",1977,1
+"241","Connecticut",1978,1
+"242","Connecticut",1979,1
+"243","Connecticut",1980,1
+"244","Connecticut",1981,1
+"245","Connecticut",1982,1
+"246","Connecticut",1983,1
+"247","Connecticut",1984,1
+"248","Connecticut",1987,1
+"249","Connecticut",1988,1
+"250","Connecticut",1989,1
+"251","Connecticut",1990,1
+"252","Delaware",1941,0
+"253","Delaware",1942,0
+"254","Delaware",1943,0
+"255","Delaware",1944,0
+"256","Delaware",1945,0
+"257","Delaware",1946,0
+"258","Delaware",1947,0
+"259","Delaware",1948,0
+"260","Delaware",1953,0
+"261","Delaware",1954,0
+"262","Delaware",1961,1
+"263","Delaware",1962,1
+"264","Delaware",1963,1
+"265","Delaware",1964,1
+"266","Delaware",1965,1
+"267","Delaware",1966,1
+"268","Delaware",1969,0
+"269","Delaware",1970,0
+"270","Delaware",1971,0
+"271","Delaware",1972,0
+"272","Delaware",1975,1
+"273","Delaware",1976,1
+"274","Florida",1937,1
+"275","Florida",1938,1
+"276","Florida",1939,1
+"277","Florida",1940,1
+"278","Florida",1941,1
+"279","Florida",1942,1
+"280","Florida",1943,1
+"281","Florida",1944,1
+"282","Florida",1945,1
+"283","Florida",1946,1
+"284","Florida",1947,1
+"285","Florida",1948,1
+"286","Florida",1949,1
+"287","Florida",1950,1
+"288","Florida",1951,1
+"289","Florida",1952,1
+"290","Florida",1953,1
+"291","Florida",1954,1
+"292","Florida",1955,1
+"293","Florida",1956,1
+"294","Florida",1957,1
+"295","Florida",1958,1
+"296","Florida",1959,1
+"297","Florida",1960,1
+"298","Florida",1961,1
+"299","Florida",1962,1
+"300","Florida",1963,1
+"301","Florida",1964,1
+"302","Florida",1965,1
+"303","Florida",1966,1
+"304","Florida",1971,1
+"305","Florida",1972,1
+"306","Florida",1973,1
+"307","Florida",1974,1
+"308","Florida",1975,1
+"309","Florida",1976,1
+"310","Florida",1977,1
+"311","Florida",1978,1
+"312","Florida",1979,1
+"313","Florida",1980,1
+"314","Florida",1981,1
+"315","Florida",1982,1
+"316","Florida",1983,1
+"317","Florida",1984,1
+"318","Florida",1985,1
+"319","Florida",1986,1
+"320","Florida",1991,1
+"321","Florida",1992,1
+"322","Florida",1999,0
+"323","Florida",2000,0
+"324","Florida",2001,0
+"325","Florida",2002,0
+"326","Florida",2003,0
+"327","Florida",2004,0
+"328","Florida",2005,0
+"329","Florida",2006,0
+"330","Florida",2007,0
+"331","Florida",2008,0
+"332","Florida",2009,0
+"333","Florida",2010,0
+"334","Georgia",1937,1
+"335","Georgia",1938,1
+"336","Georgia",1939,1
+"337","Georgia",1940,1
+"338","Georgia",1941,1
+"339","Georgia",1942,1
+"340","Georgia",1943,1
+"341","Georgia",1944,1
+"342","Georgia",1945,1
+"343","Georgia",1946,1
+"344","Georgia",1947,1
+"345","Georgia",1948,1
+"346","Georgia",1949,1
+"347","Georgia",1950,1
+"348","Georgia",1951,1
+"349","Georgia",1952,1
+"350","Georgia",1953,1
+"351","Georgia",1954,1
+"352","Georgia",1955,1
+"353","Georgia",1956,1
+"354","Georgia",1957,1
+"355","Georgia",1958,1
+"356","Georgia",1959,1
+"357","Georgia",1960,1
+"358","Georgia",1961,1
+"359","Georgia",1962,1
+"360","Georgia",1963,1
+"361","Georgia",1964,1
+"362","Georgia",1965,1
+"363","Georgia",1966,1
+"364","Georgia",1967,1
+"365","Georgia",1968,1
+"366","Georgia",1969,1
+"367","Georgia",1970,1
+"368","Georgia",1971,1
+"369","Georgia",1972,1
+"370","Georgia",1973,1
+"371","Georgia",1974,1
+"372","Georgia",1975,1
+"373","Georgia",1976,1
+"374","Georgia",1977,1
+"375","Georgia",1978,1
+"376","Georgia",1979,1
+"377","Georgia",1980,1
+"378","Georgia",1981,1
+"379","Georgia",1982,1
+"380","Georgia",1983,1
+"381","Georgia",1984,1
+"382","Georgia",1985,1
+"383","Georgia",1986,1
+"384","Georgia",1987,1
+"385","Georgia",1988,1
+"386","Georgia",1989,1
+"387","Georgia",1990,1
+"388","Georgia",1991,1
+"389","Georgia",1992,1
+"390","Georgia",1993,1
+"391","Georgia",1994,1
+"392","Georgia",1995,1
+"393","Georgia",1996,1
+"394","Georgia",1997,1
+"395","Georgia",1998,1
+"396","Georgia",1999,1
+"397","Georgia",2000,1
+"398","Georgia",2001,1
+"399","Georgia",2002,1
+"400","Georgia",2005,0
+"401","Georgia",2006,0
+"402","Georgia",2007,0
+"403","Georgia",2008,0
+"404","Georgia",2009,0
+"405","Georgia",2010,0
+"406","Hawaii",1949,NA
+"407","Hawaii",1950,NA
+"408","Hawaii",1951,NA
+"409","Hawaii",1952,NA
+"410","Hawaii",1953,NA
+"411","Hawaii",1954,NA
+"412","Hawaii",1955,NA
+"413","Hawaii",1956,NA
+"414","Hawaii",1957,NA
+"415","Hawaii",1958,NA
+"416","Hawaii",1963,1
+"417","Hawaii",1964,1
+"418","Hawaii",1965,1
+"419","Hawaii",1966,1
+"420","Hawaii",1967,1
+"421","Hawaii",1968,1
+"422","Hawaii",1969,1
+"423","Hawaii",1970,1
+"424","Hawaii",1971,1
+"425","Hawaii",1972,1
+"426","Hawaii",1973,1
+"427","Hawaii",1974,1
+"428","Hawaii",1975,1
+"429","Hawaii",1976,1
+"430","Hawaii",1977,1
+"431","Hawaii",1978,1
+"432","Hawaii",1979,1
+"433","Hawaii",1980,1
+"434","Hawaii",1981,1
+"435","Hawaii",1982,1
+"436","Hawaii",1983,1
+"437","Hawaii",1984,1
+"438","Hawaii",1985,1
+"439","Hawaii",1986,1
+"440","Hawaii",1987,1
+"441","Hawaii",1988,1
+"442","Hawaii",1989,1
+"443","Hawaii",1990,1
+"444","Hawaii",1991,1
+"445","Hawaii",1992,1
+"446","Hawaii",1993,1
+"447","Hawaii",1994,1
+"448","Hawaii",1995,1
+"449","Hawaii",1996,1
+"450","Hawaii",1997,1
+"451","Hawaii",1998,1
+"452","Hawaii",1999,1
+"453","Hawaii",2000,1
+"454","Hawaii",2001,1
+"455","Hawaii",2002,1
+"456","Idaho",1937,1
+"457","Idaho",1938,1
+"458","Idaho",1939,0
+"459","Idaho",1940,0
+"460","Idaho",1941,1
+"461","Idaho",1942,1
+"462","Idaho",1943,0
+"463","Idaho",1944,0
+"464","Idaho",1947,0
+"465","Idaho",1948,0
+"466","Idaho",1951,0
+"467","Idaho",1952,0
+"468","Idaho",1953,0
+"469","Idaho",1954,0
+"470","Idaho",1955,0
+"471","Idaho",1956,0
+"472","Idaho",1961,0
+"473","Idaho",1962,0
+"474","Idaho",1963,0
+"475","Idaho",1964,0
+"476","Idaho",1965,0
+"477","Idaho",1966,0
+"478","Idaho",1967,0
+"479","Idaho",1968,0
+"480","Idaho",1969,0
+"481","Idaho",1970,0
+"482","Idaho",1995,0
+"483","Idaho",1996,0
+"484","Idaho",1997,0
+"485","Idaho",1998,0
+"486","Idaho",1999,0
+"487","Idaho",2000,0
+"488","Idaho",2001,0
+"489","Idaho",2002,0
+"490","Idaho",2003,0
+"491","Idaho",2004,0
+"492","Idaho",2005,0
+"493","Idaho",2006,0
+"494","Idaho",2007,0
+"495","Idaho",2008,0
+"496","Idaho",2009,0
+"497","Idaho",2010,0
+"498","Illinois",1937,1
+"499","Illinois",1938,1
+"500","Illinois",1941,0
+"501","Illinois",1942,0
+"502","Illinois",1943,0
+"503","Illinois",1944,0
+"504","Illinois",1945,0
+"505","Illinois",1946,0
+"506","Illinois",1947,0
+"507","Illinois",1948,0
+"508","Illinois",1953,0
+"509","Illinois",1954,0
+"510","Illinois",1955,0
+"511","Illinois",1956,0
+"512","Illinois",1957,0
+"513","Illinois",1958,0
+"514","Illinois",1969,0
+"515","Illinois",1970,0
+"516","Illinois",1975,1
+"517","Illinois",1976,1
+"518","Illinois",1995,0
+"519","Illinois",1996,0
+"520","Illinois",2003,1
+"521","Illinois",2004,1
+"522","Illinois",2005,1
+"523","Illinois",2006,1
+"524","Illinois",2007,1
+"525","Illinois",2008,1
+"526","Illinois",2009,1
+"527","Illinois",2010,1
+"528","Indiana",1937,1
+"529","Indiana",1938,1
+"530","Indiana",1945,0
+"531","Indiana",1946,0
+"532","Indiana",1947,0
+"533","Indiana",1948,0
+"534","Indiana",1953,0
+"535","Indiana",1954,0
+"536","Indiana",1955,0
+"537","Indiana",1956,0
+"538","Indiana",1957,0
+"539","Indiana",1958,0
+"540","Indiana",1965,1
+"541","Indiana",1966,1
+"542","Indiana",1969,0
+"543","Indiana",1970,0
+"544","Indiana",1971,0
+"545","Indiana",1972,0
+"546","Indiana",1973,0
+"547","Indiana",1974,0
+"548","Indiana",1979,0
+"549","Indiana",1980,0
+"550","Indiana",1981,0
+"551","Indiana",1982,0
+"552","Indiana",1983,0
+"553","Indiana",1984,0
+"554","Indiana",1985,0
+"555","Indiana",1986,0
+"556","Indiana",1987,0
+"557","Indiana",1988,0
+"558","Indiana",2005,0
+"559","Indiana",2006,0
+"560","Iowa",1939,0
+"561","Iowa",1940,0
+"562","Iowa",1941,0
+"563","Iowa",1942,0
+"564","Iowa",1943,0
+"565","Iowa",1944,0
+"566","Iowa",1945,0
+"567","Iowa",1946,0
+"568","Iowa",1947,0
+"569","Iowa",1948,0
+"570","Iowa",1949,0
+"571","Iowa",1950,0
+"572","Iowa",1951,0
+"573","Iowa",1952,0
+"574","Iowa",1953,0
+"575","Iowa",1954,0
+"576","Iowa",1955,0
+"577","Iowa",1956,0
+"578","Iowa",1961,0
+"579","Iowa",1962,0
+"580","Iowa",1965,1
+"581","Iowa",1966,1
+"582","Iowa",1969,0
+"583","Iowa",1970,0
+"584","Iowa",1971,0
+"585","Iowa",1972,0
+"586","Iowa",1973,0
+"587","Iowa",1974,0
+"588","Iowa",1979,0
+"589","Iowa",1980,0
+"590","Iowa",1981,0
+"591","Iowa",1982,0
+"592","Iowa",1997,0
+"593","Iowa",1998,0
+"594","Iowa",2007,1
+"595","Iowa",2008,1
+"596","Iowa",2009,1
+"597","Iowa",2010,1
+"598","Kansas",1939,0
+"599","Kansas",1940,0
+"600","Kansas",1941,0
+"601","Kansas",1942,0
+"602","Kansas",1943,0
+"603","Kansas",1944,0
+"604","Kansas",1945,0
+"605","Kansas",1946,0
+"606","Kansas",1947,0
+"607","Kansas",1948,0
+"608","Kansas",1949,0
+"609","Kansas",1950,0
+"610","Kansas",1951,0
+"611","Kansas",1952,0
+"612","Kansas",1953,0
+"613","Kansas",1954,0
+"614","Kansas",1955,0
+"615","Kansas",1956,0
+"616","Kansas",1961,0
+"617","Kansas",1962,0
+"618","Kansas",1963,0
+"619","Kansas",1964,0
+"620","Kansas",1965,0
+"621","Kansas",1966,0
+"622","Kansas",1975,0
+"623","Kansas",1976,0
+"624","Kansas",1987,0
+"625","Kansas",1988,0
+"626","Kansas",1989,0
+"627","Kansas",1990,0
+"628","Kansas",1995,0
+"629","Kansas",1996,0
+"630","Kansas",1997,0
+"631","Kansas",1998,0
+"632","Kansas",1999,0
+"633","Kansas",2000,0
+"634","Kansas",2001,0
+"635","Kansas",2002,0
+"636","Kentucky",1936,NA
+"637","Kentucky",1937,1
+"638","Kentucky",1938,1
+"639","Kentucky",1939,1
+"640","Kentucky",1940,1
+"641","Kentucky",1941,1
+"642","Kentucky",1942,1
+"643","Kentucky",1943,1
+"644","Kentucky",1948,1
+"645","Kentucky",1949,1
+"646","Kentucky",1950,1
+"647","Kentucky",1951,1
+"648","Kentucky",1952,1
+"649","Kentucky",1953,1
+"650","Kentucky",1954,1
+"651","Kentucky",1955,1
+"652","Kentucky",1956,1
+"653","Kentucky",1957,1
+"654","Kentucky",1958,1
+"655","Kentucky",1959,1
+"656","Kentucky",1960,1
+"657","Kentucky",1961,1
+"658","Kentucky",1962,1
+"659","Kentucky",1963,1
+"660","Kentucky",1964,1
+"661","Kentucky",1965,1
+"662","Kentucky",1966,1
+"663","Kentucky",1967,1
+"664","Kentucky",1972,1
+"665","Kentucky",1973,1
+"666","Kentucky",1974,1
+"667","Kentucky",1975,1
+"668","Kentucky",1976,1
+"669","Kentucky",1977,1
+"670","Kentucky",1978,1
+"671","Kentucky",1979,1
+"672","Kentucky",1980,1
+"673","Kentucky",1981,1
+"674","Kentucky",1982,1
+"675","Kentucky",1983,1
+"676","Kentucky",1984,1
+"677","Kentucky",1985,1
+"678","Kentucky",1986,1
+"679","Kentucky",1987,1
+"680","Kentucky",1988,1
+"681","Kentucky",1989,1
+"682","Kentucky",1990,1
+"683","Kentucky",1991,1
+"684","Kentucky",1992,1
+"685","Kentucky",1993,1
+"686","Kentucky",1994,1
+"687","Kentucky",1995,1
+"688","Kentucky",1996,1
+"689","Kentucky",1997,1
+"690","Kentucky",1998,1
+"691","Kentucky",1999,1
+"692","Louisiana",1936,NA
+"693","Louisiana",1937,1
+"694","Louisiana",1938,1
+"695","Louisiana",1939,1
+"696","Louisiana",1940,1
+"697","Louisiana",1941,1
+"698","Louisiana",1942,1
+"699","Louisiana",1943,1
+"700","Louisiana",1944,1
+"701","Louisiana",1945,1
+"702","Louisiana",1946,1
+"703","Louisiana",1947,1
+"704","Louisiana",1948,1
+"705","Louisiana",1949,1
+"706","Louisiana",1950,1
+"707","Louisiana",1951,1
+"708","Louisiana",1952,1
+"709","Louisiana",1953,1
+"710","Louisiana",1954,1
+"711","Louisiana",1955,1
+"712","Louisiana",1956,1
+"713","Louisiana",1957,1
+"714","Louisiana",1958,1
+"715","Louisiana",1959,1
+"716","Louisiana",1960,1
+"717","Louisiana",1961,1
+"718","Louisiana",1962,1
+"719","Louisiana",1963,1
+"720","Louisiana",1964,1
+"721","Louisiana",1965,1
+"722","Louisiana",1966,1
+"723","Louisiana",1967,1
+"724","Louisiana",1968,1
+"725","Louisiana",1969,1
+"726","Louisiana",1970,1
+"727","Louisiana",1971,1
+"728","Louisiana",1972,1
+"729","Louisiana",1973,1
+"730","Louisiana",1974,1
+"731","Louisiana",1975,1
+"732","Louisiana",1976,1
+"733","Louisiana",1977,1
+"734","Louisiana",1978,1
+"735","Louisiana",1979,1
+"736","Louisiana",1984,1
+"737","Louisiana",1985,1
+"738","Louisiana",1986,1
+"739","Louisiana",1987,1
+"740","Louisiana",1988,1
+"741","Louisiana",1989,1
+"742","Louisiana",1990,1
+"743","Louisiana",1992,1
+"744","Louisiana",1993,1
+"745","Louisiana",1994,1
+"746","Louisiana",1995,1
+"747","Maine",1937,0
+"748","Maine",1938,0
+"749","Maine",1939,0
+"750","Maine",1940,0
+"751","Maine",1941,0
+"752","Maine",1942,0
+"753","Maine",1943,0
+"754","Maine",1944,0
+"755","Maine",1945,0
+"756","Maine",1946,0
+"757","Maine",1947,0
+"758","Maine",1948,0
+"759","Maine",1949,0
+"760","Maine",1950,0
+"761","Maine",1951,0
+"762","Maine",1952,0
+"763","Maine",1953,0
+"764","Maine",1954,0
+"765","Maine",1960,0
+"766","Maine",1961,0
+"767","Maine",1962,0
+"768","Maine",1963,0
+"769","Maine",1964,0
+"770","Maine",1983,1
+"771","Maine",1984,1
+"772","Maine",1985,1
+"773","Maine",1986,1
+"774","Maine",2003,1
+"775","Maine",2004,1
+"776","Maine",2005,1
+"777","Maine",2006,1
+"778","Maine",2007,1
+"779","Maine",2008,1
+"780","Maine",2009,1
+"781","Maine",2010,1
+"782","Maryland",1939,1
+"783","Maryland",1940,1
+"784","Maryland",1941,1
+"785","Maryland",1942,1
+"786","Maryland",1943,1
+"787","Maryland",1944,1
+"788","Maryland",1945,1
+"789","Maryland",1946,1
+"790","Maryland",1947,1
+"791","Maryland",1948,1
+"792","Maryland",1949,1
+"793","Maryland",1950,1
+"794","Maryland",1959,1
+"795","Maryland",1960,1
+"796","Maryland",1961,1
+"797","Maryland",1962,1
+"798","Maryland",1963,1
+"799","Maryland",1964,1
+"800","Maryland",1965,1
+"801","Maryland",1966,1
+"802","Maryland",1969,1
+"803","Maryland",1970,1
+"804","Maryland",1971,1
+"805","Maryland",1972,1
+"806","Maryland",1973,1
+"807","Maryland",1974,1
+"808","Maryland",1975,1
+"809","Maryland",1976,1
+"810","Maryland",1977,1
+"811","Maryland",1978,1
+"812","Maryland",1979,1
+"813","Maryland",1980,1
+"814","Maryland",1981,1
+"815","Maryland",1982,1
+"816","Maryland",1983,1
+"817","Maryland",1984,1
+"818","Maryland",1985,1
+"819","Maryland",1986,1
+"820","Maryland",1987,1
+"821","Maryland",1988,1
+"822","Maryland",1989,1
+"823","Maryland",1990,1
+"824","Maryland",1991,1
+"825","Maryland",1992,1
+"826","Maryland",1993,1
+"827","Maryland",1994,1
+"828","Maryland",1995,1
+"829","Maryland",1996,1
+"830","Maryland",1997,1
+"831","Maryland",1998,1
+"832","Maryland",1999,1
+"833","Maryland",2000,1
+"834","Maryland",2001,1
+"835","Maryland",2002,1
+"836","Maryland",2007,1
+"837","Maryland",2008,1
+"838","Maryland",2009,1
+"839","Maryland",2010,1
+"840","Massachusetts",1939,0
+"841","Massachusetts",1940,0
+"842","Massachusetts",1941,0
+"843","Massachusetts",1942,0
+"844","Massachusetts",1943,0
+"845","Massachusetts",1944,0
+"846","Massachusetts",1947,0
+"847","Massachusetts",1948,0
+"848","Massachusetts",1953,0
+"849","Massachusetts",1954,0
+"850","Massachusetts",1959,1
+"851","Massachusetts",1960,1
+"852","Massachusetts",1963,1
+"853","Massachusetts",1964,1
+"854","Massachusetts",1975,1
+"855","Massachusetts",1976,1
+"856","Massachusetts",1977,1
+"857","Massachusetts",1978,1
+"858","Massachusetts",1979,1
+"859","Massachusetts",1980,1
+"860","Massachusetts",1981,1
+"861","Massachusetts",1982,1
+"862","Massachusetts",1983,1
+"863","Massachusetts",1984,1
+"864","Massachusetts",1985,1
+"865","Massachusetts",1986,1
+"866","Massachusetts",1987,1
+"867","Massachusetts",1988,1
+"868","Massachusetts",1989,1
+"869","Massachusetts",1990,1
+"870","Massachusetts",2007,1
+"871","Massachusetts",2008,1
+"872","Massachusetts",2009,1
+"873","Massachusetts",2010,1
+"874","Michigan",1937,1
+"875","Michigan",1938,1
+"876","Michigan",1939,0
+"877","Michigan",1940,0
+"878","Michigan",1943,0
+"879","Michigan",1944,0
+"880","Michigan",1945,0
+"881","Michigan",1946,0
+"882","Michigan",1947,0
+"883","Michigan",1948,0
+"884","Michigan",1963,0
+"885","Michigan",1964,0
+"886","Michigan",1967,0
+"887","Michigan",1968,0
+"888","Michigan",1983,1
+"889","Michigan",1995,0
+"890","Michigan",1996,0
+"891","Michigan",1999,0
+"892","Michigan",2000,0
+"893","Michigan",2001,0
+"894","Michigan",2002,0
+"895","Minnesota",1951,0
+"896","Minnesota",1952,0
+"897","Minnesota",1953,0
+"898","Minnesota",1954,0
+"899","Minnesota",1967,0
+"900","Minnesota",1968,0
+"901","Minnesota",1969,0
+"902","Minnesota",1970,0
+"903","Minnesota",1973,1
+"904","Minnesota",1974,1
+"905","Minnesota",1975,1
+"906","Minnesota",1976,1
+"907","Minnesota",1977,1
+"908","Minnesota",1978,1
+"909","Minnesota",1983,1
+"910","Minnesota",1984,1
+"911","Minnesota",1987,1
+"912","Minnesota",1988,1
+"913","Minnesota",1989,1
+"914","Minnesota",1990,1
+"915","Mississippi",1936,NA
+"916","Mississippi",1937,1
+"917","Mississippi",1938,1
+"918","Mississippi",1939,1
+"919","Mississippi",1940,1
+"920","Mississippi",1941,1
+"921","Mississippi",1942,1
+"922","Mississippi",1943,1
+"923","Mississippi",1944,1
+"924","Mississippi",1945,1
+"925","Mississippi",1946,1
+"926","Mississippi",1947,1
+"927","Mississippi",1948,1
+"928","Mississippi",1949,1
+"929","Mississippi",1950,1
+"930","Mississippi",1951,1
+"931","Mississippi",1952,1
+"932","Mississippi",1953,1
+"933","Mississippi",1954,1
+"934","Mississippi",1955,1
+"935","Mississippi",1956,1
+"936","Mississippi",1957,1
+"937","Mississippi",1958,1
+"938","Mississippi",1959,1
+"939","Mississippi",1960,1
+"940","Mississippi",1961,1
+"941","Mississippi",1962,1
+"942","Mississippi",1963,1
+"943","Mississippi",1964,1
+"944","Mississippi",1965,1
+"945","Mississippi",1966,1
+"946","Mississippi",1967,1
+"947","Mississippi",1968,1
+"948","Mississippi",1969,1
+"949","Mississippi",1970,1
+"950","Mississippi",1971,1
+"951","Mississippi",1972,1
+"952","Mississippi",1973,1
+"953","Mississippi",1974,1
+"954","Mississippi",1975,1
+"955","Mississippi",1976,1
+"956","Mississippi",1977,1
+"957","Mississippi",1978,1
+"958","Mississippi",1979,1
+"959","Mississippi",1980,1
+"960","Mississippi",1981,1
+"961","Mississippi",1982,1
+"962","Mississippi",1983,1
+"963","Mississippi",1984,1
+"964","Mississippi",1985,1
+"965","Mississippi",1986,1
+"966","Mississippi",1987,1
+"967","Mississippi",1988,1
+"968","Mississippi",1989,1
+"969","Mississippi",1990,1
+"970","Mississippi",1991,1
+"971","Mississippi",2000,1
+"972","Mississippi",2001,1
+"973","Mississippi",2002,1
+"974","Mississippi",2003,1
+"975","Missouri",1937,1
+"976","Missouri",1938,1
+"977","Missouri",1939,1
+"978","Missouri",1940,1
+"979","Missouri",1949,1
+"980","Missouri",1950,1
+"981","Missouri",1951,1
+"982","Missouri",1952,1
+"983","Missouri",1955,1
+"984","Missouri",1956,1
+"985","Missouri",1957,1
+"986","Missouri",1958,1
+"987","Missouri",1959,1
+"988","Missouri",1960,1
+"989","Missouri",1961,1
+"990","Missouri",1962,1
+"991","Missouri",1963,1
+"992","Missouri",1964,1
+"993","Missouri",1965,1
+"994","Missouri",1966,1
+"995","Missouri",1967,1
+"996","Missouri",1968,1
+"997","Missouri",1969,1
+"998","Missouri",1970,1
+"999","Missouri",1971,1
+"1000","Missouri",1972,1
+"1001","Missouri",1977,1
+"1002","Missouri",1978,1
+"1003","Missouri",1979,1
+"1004","Missouri",1980,1
+"1005","Missouri",1993,1
+"1006","Missouri",1994,1
+"1007","Missouri",1995,1
+"1008","Missouri",1996,1
+"1009","Montana",1937,1
+"1010","Montana",1938,1
+"1011","Montana",1939,1
+"1012","Montana",1940,1
+"1013","Montana",1943,0
+"1014","Montana",1944,0
+"1015","Montana",1945,0
+"1016","Montana",1946,0
+"1017","Montana",1947,0
+"1018","Montana",1948,0
+"1019","Montana",1953,0
+"1020","Montana",1954,0
+"1021","Montana",1973,1
+"1022","Montana",1974,1
+"1023","Montana",1975,1
+"1024","Montana",1976,1
+"1025","Montana",1995,0
+"1026","Montana",1996,0
+"1027","Montana",1997,0
+"1028","Montana",1998,0
+"1029","Montana",1999,0
+"1030","Montana",2000,0
+"1031","Montana",2001,0
+"1032","Montana",2002,0
+"1033","Montana",2003,0
+"1034","Montana",2004,0
+"1035","Nevada",1937,1
+"1036","Nevada",1938,1
+"1037","Nevada",1965,1
+"1038","Nevada",1966,1
+"1039","Nevada",1973,1
+"1040","Nevada",1974,1
+"1041","Nevada",1975,1
+"1042","Nevada",1976,1
+"1043","Nevada",1977,1
+"1044","Nevada",1978,1
+"1045","Nevada",1983,1
+"1046","Nevada",1984,1
+"1047","Nevada",1991,1
+"1048","Nevada",1992,1
+"1049","New Hampshire",1937,0
+"1050","New Hampshire",1938,0
+"1051","New Hampshire",1939,0
+"1052","New Hampshire",1940,0
+"1053","New Hampshire",1941,0
+"1054","New Hampshire",1942,0
+"1055","New Hampshire",1943,0
+"1056","New Hampshire",1944,0
+"1057","New Hampshire",1945,0
+"1058","New Hampshire",1946,0
+"1059","New Hampshire",1947,0
+"1060","New Hampshire",1948,0
+"1061","New Hampshire",1949,0
+"1062","New Hampshire",1950,0
+"1063","New Hampshire",1951,0
+"1064","New Hampshire",1952,0
+"1065","New Hampshire",1953,0
+"1066","New Hampshire",1954,0
+"1067","New Hampshire",1955,0
+"1068","New Hampshire",1956,0
+"1069","New Hampshire",1957,0
+"1070","New Hampshire",1958,0
+"1071","New Hampshire",1959,0
+"1072","New Hampshire",1960,0
+"1073","New Hampshire",1961,0
+"1074","New Hampshire",1962,0
+"1075","New Hampshire",1969,0
+"1076","New Hampshire",1970,0
+"1077","New Hampshire",1971,0
+"1078","New Hampshire",1972,0
+"1079","New Hampshire",1973,0
+"1080","New Hampshire",1974,0
+"1081","New Hampshire",1983,0
+"1082","New Hampshire",1984,0
+"1083","New Hampshire",1985,0
+"1084","New Hampshire",1986,0
+"1085","New Hampshire",1987,0
+"1086","New Hampshire",1988,0
+"1087","New Hampshire",1989,0
+"1088","New Hampshire",1990,0
+"1089","New Hampshire",1991,0
+"1090","New Hampshire",1992,0
+"1091","New Hampshire",1993,0
+"1092","New Hampshire",1994,0
+"1093","New Hampshire",1995,0
+"1094","New Hampshire",1996,0
+"1095","New Hampshire",2003,0
+"1096","New Hampshire",2004,0
+"1097","New Hampshire",2007,1
+"1098","New Hampshire",2008,1
+"1099","New Hampshire",2009,1
+"1100","New Hampshire",2010,1
+"1101","New Jersey",1936,NA
+"1102","New Jersey",1944,0
+"1103","New Jersey",1945,0
+"1104","New Jersey",1946,0
+"1105","New Jersey",1947,0
+"1106","New Jersey",1948,0
+"1107","New Jersey",1949,0
+"1108","New Jersey",1950,0
+"1109","New Jersey",1951,0
+"1110","New Jersey",1952,0
+"1111","New Jersey",1953,0
+"1112","New Jersey",1966,1
+"1113","New Jersey",1967,1
+"1114","New Jersey",1970,0
+"1115","New Jersey",1971,0
+"1116","New Jersey",1974,1
+"1117","New Jersey",1975,1
+"1118","New Jersey",1976,1
+"1119","New Jersey",1977,1
+"1120","New Jersey",1978,1
+"1121","New Jersey",1979,1
+"1122","New Jersey",1980,1
+"1123","New Jersey",1981,1
+"1124","New Jersey",1990,1
+"1125","New Jersey",1991,1
+"1126","New Jersey",1994,0
+"1127","New Jersey",1995,0
+"1128","New Jersey",1996,0
+"1129","New Jersey",1997,0
+"1130","New Jersey",1998,0
+"1131","New Jersey",1999,0
+"1132","New Jersey",2000,0
+"1133","New Jersey",2001,0
+"1134","New Jersey",2004,1
+"1135","New Jersey",2005,1
+"1136","New Jersey",2006,1
+"1137","New Jersey",2007,1
+"1138","New Jersey",2008,1
+"1139","New Jersey",2009,1
+"1140","New Mexico",1937,1
+"1141","New Mexico",1938,1
+"1142","New Mexico",1939,1
+"1143","New Mexico",1940,1
+"1144","New Mexico",1941,1
+"1145","New Mexico",1942,1
+"1146","New Mexico",1943,1
+"1147","New Mexico",1944,1
+"1148","New Mexico",1945,1
+"1149","New Mexico",1946,1
+"1150","New Mexico",1947,1
+"1151","New Mexico",1948,1
+"1152","New Mexico",1949,1
+"1153","New Mexico",1950,1
+"1154","New Mexico",1955,1
+"1155","New Mexico",1956,1
+"1156","New Mexico",1959,1
+"1157","New Mexico",1960,1
+"1158","New Mexico",1963,1
+"1159","New Mexico",1964,1
+"1160","New Mexico",1965,1
+"1161","New Mexico",1966,1
+"1162","New Mexico",1971,1
+"1163","New Mexico",1972,1
+"1164","New Mexico",1973,1
+"1165","New Mexico",1974,1
+"1166","New Mexico",1975,1
+"1167","New Mexico",1976,1
+"1168","New Mexico",1977,1
+"1169","New Mexico",1978,1
+"1170","New Mexico",1979,1
+"1171","New Mexico",1980,1
+"1172","New Mexico",1981,1
+"1173","New Mexico",1982,1
+"1174","New Mexico",1983,1
+"1175","New Mexico",1984,1
+"1176","New Mexico",1991,1
+"1177","New Mexico",1992,1
+"1178","New Mexico",1993,1
+"1179","New Mexico",1994,1
+"1180","New Mexico",2003,1
+"1181","New Mexico",2004,1
+"1182","New Mexico",2005,1
+"1183","New Mexico",2006,1
+"1184","New Mexico",2007,1
+"1185","New Mexico",2008,1
+"1186","New Mexico",2009,1
+"1187","New Mexico",2010,1
+"1188","New York",1943,0
+"1189","New York",1944,0
+"1190","New York",1945,0
+"1191","New York",1946,0
+"1192","New York",1947,0
+"1193","New York",1948,0
+"1194","New York",1949,0
+"1195","New York",1950,0
+"1196","New York",1951,0
+"1197","New York",1952,0
+"1198","New York",1953,0
+"1199","New York",1954,0
+"1200","New York",1959,0
+"1201","New York",1960,0
+"1202","New York",1961,0
+"1203","New York",1962,0
+"1204","New York",1963,0
+"1205","New York",1964,0
+"1206","New York",1969,0
+"1207","New York",1970,0
+"1208","New York",1971,0
+"1209","New York",1972,0
+"1210","New York",1973,0
+"1211","New York",1974,0
+"1212","New York",2009,1
+"1213","New York",2010,1
+"1214","North Carolina",1937,1
+"1215","North Carolina",1938,1
+"1216","North Carolina",1939,1
+"1217","North Carolina",1940,1
+"1218","North Carolina",1941,1
+"1219","North Carolina",1942,1
+"1220","North Carolina",1943,1
+"1221","North Carolina",1944,1
+"1222","North Carolina",1945,1
+"1223","North Carolina",1946,1
+"1224","North Carolina",1947,1
+"1225","North Carolina",1948,1
+"1226","North Carolina",1949,1
+"1227","North Carolina",1950,1
+"1228","North Carolina",1951,1
+"1229","North Carolina",1952,1
+"1230","North Carolina",1953,1
+"1231","North Carolina",1954,1
+"1232","North Carolina",1955,1
+"1233","North Carolina",1956,1
+"1234","North Carolina",1957,1
+"1235","North Carolina",1958,1
+"1236","North Carolina",1959,1
+"1237","North Carolina",1960,1
+"1238","North Carolina",1961,1
+"1239","North Carolina",1962,1
+"1240","North Carolina",1963,1
+"1241","North Carolina",1964,1
+"1242","North Carolina",1965,1
+"1243","North Carolina",1966,1
+"1244","North Carolina",1967,1
+"1245","North Carolina",1968,1
+"1246","North Carolina",1969,1
+"1247","North Carolina",1970,1
+"1248","North Carolina",1971,1
+"1249","North Carolina",1972,1
+"1250","North Carolina",1977,1
+"1251","North Carolina",1978,1
+"1252","North Carolina",1979,1
+"1253","North Carolina",1980,1
+"1254","North Carolina",1981,1
+"1255","North Carolina",1982,1
+"1256","North Carolina",1983,1
+"1257","North Carolina",1984,1
+"1258","North Carolina",1993,1
+"1259","North Carolina",1994,1
+"1260","North Carolina",1999,1
+"1261","North Carolina",2000,1
+"1262","North Carolina",2001,1
+"1263","North Carolina",2002,1
+"1264","North Carolina",2004,1
+"1265","North Carolina",2005,1
+"1266","North Carolina",2006,1
+"1267","North Carolina",2007,1
+"1268","North Carolina",2008,1
+"1269","North Carolina",2009,1
+"1270","North Carolina",2010,1
+"1271","North Dakota",1945,0
+"1272","North Dakota",1946,0
+"1273","North Dakota",1947,0
+"1274","North Dakota",1948,0
+"1275","North Dakota",1949,0
+"1276","North Dakota",1950,0
+"1277","North Dakota",1951,0
+"1278","North Dakota",1952,0
+"1279","North Dakota",1953,0
+"1280","North Dakota",1954,0
+"1281","North Dakota",1955,0
+"1282","North Dakota",1956,0
+"1283","North Dakota",1957,0
+"1284","North Dakota",1958,0
+"1285","North Dakota",1959,0
+"1286","North Dakota",1960,0
+"1287","North Dakota",1981,0
+"1288","North Dakota",1982,0
+"1289","North Dakota",1995,0
+"1290","North Dakota",1996,0
+"1291","North Dakota",1997,0
+"1292","North Dakota",1998,0
+"1293","North Dakota",1999,0
+"1294","North Dakota",2000,0
+"1295","North Dakota",2001,0
+"1296","North Dakota",2002,0
+"1297","North Dakota",2003,0
+"1298","North Dakota",2004,0
+"1299","North Dakota",2005,0
+"1300","North Dakota",2006,0
+"1301","North Dakota",2007,0
+"1302","North Dakota",2008,0
+"1303","North Dakota",2009,0
+"1304","North Dakota",2010,0
+"1305","Ohio",1937,1
+"1306","Ohio",1938,1
+"1307","Ohio",1939,0
+"1308","Ohio",1940,0
+"1309","Ohio",1941,0
+"1310","Ohio",1942,0
+"1311","Ohio",1943,0
+"1312","Ohio",1944,0
+"1313","Ohio",1947,0
+"1314","Ohio",1948,0
+"1315","Ohio",1949,1
+"1316","Ohio",1950,1
+"1317","Ohio",1957,0
+"1318","Ohio",1958,0
+"1319","Ohio",1959,1
+"1320","Ohio",1960,1
+"1321","Ohio",1963,0
+"1322","Ohio",1964,0
+"1323","Ohio",1965,0
+"1324","Ohio",1966,0
+"1325","Ohio",1967,0
+"1326","Ohio",1968,0
+"1327","Ohio",1969,0
+"1328","Ohio",1970,0
+"1329","Ohio",1983,1
+"1330","Ohio",1984,1
+"1331","Ohio",1995,0
+"1332","Ohio",1996,0
+"1333","Ohio",1997,0
+"1334","Ohio",1998,0
+"1335","Ohio",1999,0
+"1336","Ohio",2000,0
+"1337","Ohio",2001,0
+"1338","Ohio",2002,0
+"1339","Ohio",2003,0
+"1340","Ohio",2004,0
+"1341","Ohio",2005,0
+"1342","Ohio",2006,0
+"1343","Oklahoma",1937,1
+"1344","Oklahoma",1938,1
+"1345","Oklahoma",1939,1
+"1346","Oklahoma",1940,1
+"1347","Oklahoma",1941,1
+"1348","Oklahoma",1942,1
+"1349","Oklahoma",1943,1
+"1350","Oklahoma",1944,1
+"1351","Oklahoma",1945,1
+"1352","Oklahoma",1946,1
+"1353","Oklahoma",1947,1
+"1354","Oklahoma",1948,1
+"1355","Oklahoma",1949,1
+"1356","Oklahoma",1950,1
+"1357","Oklahoma",1951,1
+"1358","Oklahoma",1952,1
+"1359","Oklahoma",1953,1
+"1360","Oklahoma",1954,1
+"1361","Oklahoma",1955,1
+"1362","Oklahoma",1956,1
+"1363","Oklahoma",1957,1
+"1364","Oklahoma",1958,1
+"1365","Oklahoma",1959,1
+"1366","Oklahoma",1960,1
+"1367","Oklahoma",1961,1
+"1368","Oklahoma",1962,1
+"1369","Oklahoma",1971,1
+"1370","Oklahoma",1972,1
+"1371","Oklahoma",1973,1
+"1372","Oklahoma",1974,1
+"1373","Oklahoma",1975,1
+"1374","Oklahoma",1976,1
+"1375","Oklahoma",1977,1
+"1376","Oklahoma",1978,1
+"1377","Oklahoma",1979,1
+"1378","Oklahoma",1980,1
+"1379","Oklahoma",1981,1
+"1380","Oklahoma",1982,1
+"1381","Oklahoma",1983,1
+"1382","Oklahoma",1984,1
+"1383","Oklahoma",1985,1
+"1384","Oklahoma",1986,1
+"1385","Oklahoma",1991,1
+"1386","Oklahoma",1992,1
+"1387","Oregon",1939,0
+"1388","Oregon",1940,0
+"1389","Oregon",1941,0
+"1390","Oregon",1942,0
+"1391","Oregon",1943,0
+"1392","Oregon",1944,0
+"1393","Oregon",1945,0
+"1394","Oregon",1946,0
+"1395","Oregon",1947,0
+"1396","Oregon",1948,0
+"1397","Oregon",1949,0
+"1398","Oregon",1950,0
+"1399","Oregon",1951,0
+"1400","Oregon",1952,0
+"1401","Oregon",1953,0
+"1402","Oregon",1954,0
+"1403","Oregon",1955,0
+"1404","Oregon",1956,0
+"1405","Oregon",1975,1
+"1406","Oregon",1976,1
+"1407","Oregon",1977,1
+"1408","Oregon",1978,1
+"1409","Oregon",1987,1
+"1410","Oregon",1988,1
+"1411","Oregon",1989,1
+"1412","Oregon",1990,1
+"1413","Pennsylvania",1937,1
+"1414","Pennsylvania",1938,1
+"1415","Pennsylvania",1943,0
+"1416","Pennsylvania",1944,0
+"1417","Pennsylvania",1945,0
+"1418","Pennsylvania",1946,0
+"1419","Pennsylvania",1947,0
+"1420","Pennsylvania",1948,0
+"1421","Pennsylvania",1949,0
+"1422","Pennsylvania",1950,0
+"1423","Pennsylvania",1951,0
+"1424","Pennsylvania",1952,0
+"1425","Pennsylvania",1953,0
+"1426","Pennsylvania",1954,0
+"1427","Pennsylvania",1961,1
+"1428","Pennsylvania",1962,1
+"1429","Pennsylvania",1963,0
+"1430","Pennsylvania",1964,0
+"1431","Pennsylvania",1967,0
+"1432","Pennsylvania",1968,0
+"1433","Pennsylvania",1971,1
+"1434","Pennsylvania",1972,1
+"1435","Pennsylvania",1975,1
+"1436","Pennsylvania",1976,1
+"1437","Pennsylvania",1977,1
+"1438","Pennsylvania",1978,1
+"1439","Pennsylvania",1981,0
+"1440","Pennsylvania",1982,0
+"1441","Pennsylvania",1993,1
+"1442","Pennsylvania",1995,0
+"1443","Pennsylvania",1996,0
+"1444","Pennsylvania",1997,0
+"1445","Pennsylvania",1998,0
+"1446","Pennsylvania",1999,0
+"1447","Pennsylvania",2000,0
+"1448","Pennsylvania",2001,0
+"1449","Pennsylvania",2002,0
+"1450","Rhode Island",1939,0
+"1451","Rhode Island",1940,0
+"1452","Rhode Island",1961,1
+"1453","Rhode Island",1962,1
+"1454","Rhode Island",1969,1
+"1455","Rhode Island",1970,1
+"1456","Rhode Island",1971,1
+"1457","Rhode Island",1972,1
+"1458","Rhode Island",1973,1
+"1459","Rhode Island",1974,1
+"1460","Rhode Island",1975,1
+"1461","Rhode Island",1976,1
+"1462","Rhode Island",1977,1
+"1463","Rhode Island",1978,1
+"1464","Rhode Island",1979,1
+"1465","Rhode Island",1980,1
+"1466","Rhode Island",1981,1
+"1467","Rhode Island",1982,1
+"1468","Rhode Island",1983,1
+"1469","Rhode Island",1984,1
+"1470","Rhode Island",1991,1
+"1471","Rhode Island",1992,1
+"1472","Rhode Island",1993,1
+"1473","Rhode Island",1994,1
+"1474","South Carolina",1937,1
+"1475","South Carolina",1938,1
+"1476","South Carolina",1939,1
+"1477","South Carolina",1940,1
+"1478","South Carolina",1941,1
+"1479","South Carolina",1942,1
+"1480","South Carolina",1943,1
+"1481","South Carolina",1944,1
+"1482","South Carolina",1945,1
+"1483","South Carolina",1946,1
+"1484","South Carolina",1947,1
+"1485","South Carolina",1948,1
+"1486","South Carolina",1949,1
+"1487","South Carolina",1950,1
+"1488","South Carolina",1951,1
+"1489","South Carolina",1952,1
+"1490","South Carolina",1953,1
+"1491","South Carolina",1954,1
+"1492","South Carolina",1955,1
+"1493","South Carolina",1956,1
+"1494","South Carolina",1957,1
+"1495","South Carolina",1958,1
+"1496","South Carolina",1959,1
+"1497","South Carolina",1960,1
+"1498","South Carolina",1961,1
+"1499","South Carolina",1962,1
+"1500","South Carolina",1963,1
+"1501","South Carolina",1964,1
+"1502","South Carolina",1965,1
+"1503","South Carolina",1966,1
+"1504","South Carolina",1967,1
+"1505","South Carolina",1968,1
+"1506","South Carolina",1969,1
+"1507","South Carolina",1970,1
+"1508","South Carolina",1971,1
+"1509","South Carolina",1972,1
+"1510","South Carolina",1973,1
+"1511","South Carolina",1974,1
+"1512","South Carolina",1979,1
+"1513","South Carolina",1980,1
+"1514","South Carolina",1981,1
+"1515","South Carolina",1982,1
+"1516","South Carolina",1983,1
+"1517","South Carolina",1984,1
+"1518","South Carolina",1985,1
+"1519","South Carolina",1986,1
+"1520","South Carolina",2003,0
+"1521","South Carolina",2004,0
+"1522","South Carolina",2005,0
+"1523","South Carolina",2006,0
+"1524","South Carolina",2007,0
+"1525","South Carolina",2008,0
+"1526","South Carolina",2009,0
+"1527","South Carolina",2010,0
+"1528","South Dakota",1937,0
+"1529","South Dakota",1938,0
+"1530","South Dakota",1939,0
+"1531","South Dakota",1940,0
+"1532","South Dakota",1941,0
+"1533","South Dakota",1942,0
+"1534","South Dakota",1943,0
+"1535","South Dakota",1944,0
+"1536","South Dakota",1945,0
+"1537","South Dakota",1946,0
+"1538","South Dakota",1947,0
+"1539","South Dakota",1948,0
+"1540","South Dakota",1949,0
+"1541","South Dakota",1950,0
+"1542","South Dakota",1951,0
+"1543","South Dakota",1952,0
+"1544","South Dakota",1953,0
+"1545","South Dakota",1954,0
+"1546","South Dakota",1955,0
+"1547","South Dakota",1956,0
+"1548","South Dakota",1957,0
+"1549","South Dakota",1958,0
+"1550","South Dakota",1961,0
+"1551","South Dakota",1962,0
+"1552","South Dakota",1963,0
+"1553","South Dakota",1964,0
+"1554","South Dakota",1965,0
+"1555","South Dakota",1966,0
+"1556","South Dakota",1967,0
+"1557","South Dakota",1968,0
+"1558","South Dakota",1969,0
+"1559","South Dakota",1970,0
+"1560","South Dakota",1973,1
+"1561","South Dakota",1974,1
+"1562","South Dakota",1979,0
+"1563","South Dakota",1980,0
+"1564","South Dakota",1981,0
+"1565","South Dakota",1982,0
+"1566","South Dakota",1983,0
+"1567","South Dakota",1984,0
+"1568","South Dakota",1985,0
+"1569","South Dakota",1986,0
+"1570","South Dakota",1987,0
+"1571","South Dakota",1988,0
+"1572","South Dakota",1989,0
+"1573","South Dakota",1990,0
+"1574","South Dakota",1991,0
+"1575","South Dakota",1992,0
+"1576","South Dakota",1995,0
+"1577","South Dakota",1996,0
+"1578","South Dakota",2001,0
+"1579","South Dakota",2002,0
+"1580","South Dakota",2003,0
+"1581","South Dakota",2004,0
+"1582","South Dakota",2005,0
+"1583","South Dakota",2006,0
+"1584","Tennessee",1937,1
+"1585","Tennessee",1938,1
+"1586","Tennessee",1939,1
+"1587","Tennessee",1940,1
+"1588","Tennessee",1941,1
+"1589","Tennessee",1942,1
+"1590","Tennessee",1943,1
+"1591","Tennessee",1944,1
+"1592","Tennessee",1945,1
+"1593","Tennessee",1946,1
+"1594","Tennessee",1947,1
+"1595","Tennessee",1948,1
+"1596","Tennessee",1949,1
+"1597","Tennessee",1950,1
+"1598","Tennessee",1951,1
+"1599","Tennessee",1952,1
+"1600","Tennessee",1953,1
+"1601","Tennessee",1954,1
+"1602","Tennessee",1955,1
+"1603","Tennessee",1956,1
+"1604","Tennessee",1957,1
+"1605","Tennessee",1958,1
+"1606","Tennessee",1959,1
+"1607","Tennessee",1960,1
+"1608","Tennessee",1961,1
+"1609","Tennessee",1962,1
+"1610","Tennessee",1963,1
+"1611","Tennessee",1964,1
+"1612","Tennessee",1965,1
+"1613","Tennessee",1966,1
+"1614","Tennessee",1967,1
+"1615","Tennessee",1968,1
+"1616","Tennessee",1975,1
+"1617","Tennessee",1976,1
+"1618","Tennessee",1977,1
+"1619","Tennessee",1978,1
+"1620","Tennessee",1987,1
+"1621","Tennessee",1988,1
+"1622","Tennessee",1989,1
+"1623","Tennessee",1990,1
+"1624","Tennessee",1991,1
+"1625","Tennessee",1992,1
+"1626","Tennessee",1993,1
+"1627","Tennessee",1994,1
+"1628","Tennessee",2003,1
+"1629","Tennessee",2004,1
+"1630","Texas",1937,1
+"1631","Texas",1938,1
+"1632","Texas",1939,1
+"1633","Texas",1940,1
+"1634","Texas",1941,1
+"1635","Texas",1942,1
+"1636","Texas",1943,1
+"1637","Texas",1944,1
+"1638","Texas",1945,1
+"1639","Texas",1946,1
+"1640","Texas",1947,1
+"1641","Texas",1948,1
+"1642","Texas",1949,1
+"1643","Texas",1950,1
+"1644","Texas",1951,1
+"1645","Texas",1952,1
+"1646","Texas",1953,1
+"1647","Texas",1954,1
+"1648","Texas",1955,1
+"1649","Texas",1956,1
+"1650","Texas",1957,1
+"1651","Texas",1958,1
+"1652","Texas",1959,1
+"1653","Texas",1960,1
+"1654","Texas",1961,1
+"1655","Texas",1962,1
+"1656","Texas",1963,1
+"1657","Texas",1964,1
+"1658","Texas",1965,1
+"1659","Texas",1966,1
+"1660","Texas",1967,1
+"1661","Texas",1968,1
+"1662","Texas",1969,1
+"1663","Texas",1970,1
+"1664","Texas",1971,1
+"1665","Texas",1972,1
+"1666","Texas",1973,1
+"1667","Texas",1974,1
+"1668","Texas",1975,1
+"1669","Texas",1976,1
+"1670","Texas",1977,1
+"1671","Texas",1978,1
+"1672","Texas",1983,1
+"1673","Texas",1984,1
+"1674","Texas",1985,1
+"1675","Texas",1986,1
+"1676","Texas",1991,1
+"1677","Texas",1992,1
+"1678","Texas",1993,1
+"1679","Texas",1994,1
+"1680","Texas",2003,0
+"1681","Texas",2004,0
+"1682","Texas",2005,0
+"1683","Texas",2006,0
+"1684","Texas",2007,0
+"1685","Texas",2008,0
+"1686","Texas",2009,0
+"1687","Texas",2010,0
+"1688","Utah",1937,1
+"1689","Utah",1938,1
+"1690","Utah",1939,1
+"1691","Utah",1940,1
+"1692","Utah",1941,1
+"1693","Utah",1942,1
+"1694","Utah",1943,1
+"1695","Utah",1944,1
+"1696","Utah",1945,1
+"1697","Utah",1946,1
+"1698","Utah",1953,0
+"1699","Utah",1954,0
+"1700","Utah",1955,0
+"1701","Utah",1956,0
+"1702","Utah",1957,0
+"1703","Utah",1958,0
+"1704","Utah",1963,0
+"1705","Utah",1964,0
+"1706","Utah",1965,1
+"1707","Utah",1966,1
+"1708","Utah",1975,1
+"1709","Utah",1976,1
+"1710","Utah",1985,0
+"1711","Utah",1986,0
+"1712","Utah",1987,0
+"1713","Utah",1988,0
+"1714","Utah",1989,0
+"1715","Utah",1990,0
+"1716","Utah",1991,0
+"1717","Utah",1992,0
+"1718","Utah",1993,0
+"1719","Utah",1994,0
+"1720","Utah",1995,0
+"1721","Utah",1996,0
+"1722","Utah",1997,0
+"1723","Utah",1998,0
+"1724","Utah",1999,0
+"1725","Utah",2000,0
+"1726","Utah",2001,0
+"1727","Utah",2002,0
+"1728","Utah",2003,0
+"1729","Utah",2004,0
+"1730","Utah",2005,0
+"1731","Utah",2006,0
+"1732","Utah",2007,0
+"1733","Utah",2008,0
+"1734","Utah",2009,0
+"1735","Utah",2010,0
+"1736","Vermont",1937,0
+"1737","Vermont",1938,0
+"1738","Vermont",1939,0
+"1739","Vermont",1940,0
+"1740","Vermont",1941,0
+"1741","Vermont",1942,0
+"1742","Vermont",1943,0
+"1743","Vermont",1944,0
+"1744","Vermont",1945,0
+"1745","Vermont",1946,0
+"1746","Vermont",1947,0
+"1747","Vermont",1948,0
+"1748","Vermont",1949,0
+"1749","Vermont",1950,0
+"1750","Vermont",1951,0
+"1751","Vermont",1952,0
+"1752","Vermont",1953,0
+"1753","Vermont",1954,0
+"1754","Vermont",1955,0
+"1755","Vermont",1956,0
+"1756","Vermont",1957,0
+"1757","Vermont",1958,0
+"1758","Vermont",1959,0
+"1759","Vermont",1960,0
+"1760","Vermont",1961,0
+"1761","Vermont",1962,0
+"1762","Vermont",1969,0
+"1763","Vermont",1970,0
+"1764","Vermont",1971,0
+"1765","Vermont",1972,0
+"1766","Vermont",1979,0
+"1767","Vermont",1980,0
+"1768","Vermont",1981,0
+"1769","Vermont",1982,0
+"1770","Vermont",1983,0
+"1771","Vermont",1984,0
+"1772","Vermont",1987,1
+"1773","Vermont",1988,1
+"1774","Vermont",1989,1
+"1775","Vermont",1990,1
+"1776","Vermont",1997,1
+"1777","Vermont",1998,1
+"1778","Vermont",1999,1
+"1779","Vermont",2000,1
+"1780","Virginia",1936,NA
+"1781","Virginia",1937,1
+"1782","Virginia",1938,1
+"1783","Virginia",1939,1
+"1784","Virginia",1940,1
+"1785","Virginia",1941,1
+"1786","Virginia",1942,1
+"1787","Virginia",1943,1
+"1788","Virginia",1944,1
+"1789","Virginia",1945,1
+"1790","Virginia",1946,1
+"1791","Virginia",1947,1
+"1792","Virginia",1948,1
+"1793","Virginia",1949,1
+"1794","Virginia",1950,1
+"1795","Virginia",1951,1
+"1796","Virginia",1952,1
+"1797","Virginia",1953,1
+"1798","Virginia",1954,1
+"1799","Virginia",1955,1
+"1800","Virginia",1956,1
+"1801","Virginia",1957,1
+"1802","Virginia",1958,1
+"1803","Virginia",1959,1
+"1804","Virginia",1960,1
+"1805","Virginia",1961,1
+"1806","Virginia",1962,1
+"1807","Virginia",1963,1
+"1808","Virginia",1964,1
+"1809","Virginia",1965,1
+"1810","Virginia",1966,1
+"1811","Virginia",1967,1
+"1812","Virginia",1968,1
+"1813","Virginia",1969,1
+"1814","Virginia",1982,1
+"1815","Virginia",1983,1
+"1816","Virginia",1984,1
+"1817","Virginia",1985,1
+"1818","Virginia",1986,1
+"1819","Virginia",1987,1
+"1820","Virginia",1988,1
+"1821","Virginia",1989,1
+"1822","Virginia",1990,1
+"1823","Virginia",1991,1
+"1824","Virginia",1992,1
+"1825","Virginia",1993,1
+"1826","Virginia",2000,0
+"1827","Virginia",2001,0
+"1828","Washington",1937,1
+"1829","Washington",1938,1
+"1830","Washington",1939,1
+"1831","Washington",1940,1
+"1832","Washington",1945,1
+"1833","Washington",1946,1
+"1834","Washington",1953,0
+"1835","Washington",1954,0
+"1836","Washington",1957,1
+"1837","Washington",1958,1
+"1838","Washington",1959,1
+"1839","Washington",1960,1
+"1840","Washington",1961,1
+"1841","Washington",1962,1
+"1842","Washington",1963,1
+"1843","Washington",1964,1
+"1844","Washington",1977,1
+"1845","Washington",1978,1
+"1846","Washington",1981,0
+"1847","Washington",1982,0
+"1848","Washington",1985,1
+"1849","Washington",1986,1
+"1850","Washington",1987,1
+"1851","Washington",1988,1
+"1852","Washington",1993,1
+"1853","Washington",2005,1
+"1854","Washington",2006,1
+"1855","Washington",2007,1
+"1856","West Virginia",1937,1
+"1857","West Virginia",1938,1
+"1858","West Virginia",1939,1
+"1859","West Virginia",1940,1
+"1860","West Virginia",1941,1
+"1861","West Virginia",1942,1
+"1862","West Virginia",1943,1
+"1863","West Virginia",1944,1
+"1864","West Virginia",1945,1
+"1865","West Virginia",1946,1
+"1866","West Virginia",1947,1
+"1867","West Virginia",1948,1
+"1868","West Virginia",1949,1
+"1869","West Virginia",1950,1
+"1870","West Virginia",1951,1
+"1871","West Virginia",1952,1
+"1872","West Virginia",1953,1
+"1873","West Virginia",1954,1
+"1874","West Virginia",1955,1
+"1875","West Virginia",1956,1
+"1876","West Virginia",1961,1
+"1877","West Virginia",1962,1
+"1878","West Virginia",1963,1
+"1879","West Virginia",1964,1
+"1880","West Virginia",1965,1
+"1881","West Virginia",1966,1
+"1882","West Virginia",1967,1
+"1883","West Virginia",1968,1
+"1884","West Virginia",1977,1
+"1885","West Virginia",1978,1
+"1886","West Virginia",1979,1
+"1887","West Virginia",1980,1
+"1888","West Virginia",1981,1
+"1889","West Virginia",1982,1
+"1890","West Virginia",1983,1
+"1891","West Virginia",1984,1
+"1892","West Virginia",1989,1
+"1893","West Virginia",1990,1
+"1894","West Virginia",1991,1
+"1895","West Virginia",1992,1
+"1896","West Virginia",1993,1
+"1897","West Virginia",1994,1
+"1898","West Virginia",1995,1
+"1899","West Virginia",1996,1
+"1900","West Virginia",2001,1
+"1901","West Virginia",2002,1
+"1902","West Virginia",2003,1
+"1903","West Virginia",2004,1
+"1904","West Virginia",2005,1
+"1905","West Virginia",2006,1
+"1906","West Virginia",2007,1
+"1907","West Virginia",2008,1
+"1908","West Virginia",2009,1
+"1909","West Virginia",2010,1
+"1910","Wisconsin",1941,0
+"1911","Wisconsin",1942,0
+"1912","Wisconsin",1943,0
+"1913","Wisconsin",1944,0
+"1914","Wisconsin",1945,0
+"1915","Wisconsin",1946,0
+"1916","Wisconsin",1947,0
+"1917","Wisconsin",1948,0
+"1918","Wisconsin",1949,0
+"1919","Wisconsin",1950,0
+"1920","Wisconsin",1951,0
+"1921","Wisconsin",1952,0
+"1922","Wisconsin",1953,0
+"1923","Wisconsin",1954,0
+"1924","Wisconsin",1955,0
+"1925","Wisconsin",1956,0
+"1926","Wisconsin",1957,0
+"1927","Wisconsin",1958,0
+"1928","Wisconsin",1967,0
+"1929","Wisconsin",1968,0
+"1930","Wisconsin",1969,0
+"1931","Wisconsin",1970,0
+"1932","Wisconsin",1975,1
+"1933","Wisconsin",1976,1
+"1934","Wisconsin",1977,1
+"1935","Wisconsin",1978,1
+"1936","Wisconsin",1983,1
+"1937","Wisconsin",1984,1
+"1938","Wisconsin",1985,1
+"1939","Wisconsin",1986,1
+"1940","Wisconsin",1995,0
+"1941","Wisconsin",1996,0
+"1942","Wisconsin",2009,1
+"1943","Wisconsin",2010,1
+"1944","Wyoming",1937,1
+"1945","Wyoming",1938,1
+"1946","Wyoming",1939,0
+"1947","Wyoming",1940,0
+"1948","Wyoming",1949,0
+"1949","Wyoming",1950,0
+"1950","Wyoming",1951,0
+"1951","Wyoming",1952,0
+"1952","Wyoming",1953,0
+"1953","Wyoming",1954,0
+"1954","Wyoming",1957,0
+"1955","Wyoming",1958,0
+"1956","Wyoming",1963,0
+"1957","Wyoming",1964,0
+"1958","Wyoming",1967,0
+"1959","Wyoming",1968,0
+"1960","Wyoming",1969,0
+"1961","Wyoming",1970,0
+"1962","Wyoming",1971,0
+"1963","Wyoming",1972,0
+"1964","Wyoming",1973,0
+"1965","Wyoming",1974,0
+"1966","Wyoming",1995,0
+"1967","Wyoming",1996,0
+"1968","Wyoming",1997,0
+"1969","Wyoming",1998,0
+"1970","Wyoming",1999,0
+"1971","Wyoming",2000,0
+"1972","Wyoming",2001,0
+"1973","Wyoming",2002,0
+"1974","Alabama",1987,0
+"1975","Alabama",1988,0
+"1976","Alabama",1989,0
+"1977","Alabama",1990,0
+"1978","Alabama",1991,0
+"1979","Alabama",1992,0
+"1980","Alabama",1995,0
+"1981","Alabama",1996,0
+"1982","Alabama",1997,0
+"1983","Alabama",1998,0
+"1984","Alabama",2003,0
+"1985","Alabama",2004,0
+"1986","Alabama",2005,0
+"1987","Alabama",2006,0
+"1988","Alabama",2007,0
+"1989","Alabama",2008,0
+"1990","Alabama",2009,0
+"1991","Alabama",2010,0
+"1992","Alaska",1949,NA
+"1993","Alaska",1950,NA
+"1994","Alaska",1951,NA
+"1995","Alaska",1952,NA
+"1996","Alaska",1963,1
+"1997","Alaska",1964,1
+"1998","Alaska",1969,0
+"1999","Alaska",1970,0
+"2000","Alaska",1971,1
+"2001","Alaska",1972,1
+"2002","Alaska",1973,1
+"2003","Alaska",1974,1
+"2004","Alaska",1975,0
+"2005","Alaska",1976,0
+"2006","Alaska",1977,0
+"2007","Alaska",1978,0
+"2008","Alaska",1979,0
+"2009","Alaska",1980,0
+"2010","Alaska",1981,0
+"2011","Alaska",1982,0
+"2012","Alaska",1983,1
+"2013","Alaska",1984,1
+"2014","Alaska",1985,1
+"2015","Alaska",1986,1
+"2016","Alaska",1987,1
+"2017","Alaska",1988,1
+"2018","Alaska",1989,1
+"2019","Alaska",1990,1
+"2020","Alaska",1991,0.5
+"2021","Alaska",1992,0.5
+"2022","Alaska",1993,0.5
+"2023","Alaska",1994,0.5
+"2024","Alaska",1995,1
+"2025","Alaska",1996,1
+"2026","Alaska",1997,1
+"2027","Alaska",1998,1
+"2028","Alaska",1999,1
+"2029","Alaska",2000,1
+"2030","Alaska",2001,1
+"2031","Alaska",2002,1
+"2032","Alaska",2009,0
+"2033","Alaska",2010,0
+"2034","Arizona",1951,0
+"2035","Arizona",1952,0
+"2036","Arizona",1953,0
+"2037","Arizona",1954,0
+"2038","Arizona",1959,0
+"2039","Arizona",1960,0
+"2040","Arizona",1961,0
+"2041","Arizona",1962,0
+"2042","Arizona",1963,0
+"2043","Arizona",1964,0
+"2044","Arizona",1975,1
+"2045","Arizona",1976,1
+"2046","Arizona",1977,1
+"2047","Arizona",1978,1
+"2048","Arizona",1979,1
+"2049","Arizona",1980,1
+"2050","Arizona",1981,1
+"2051","Arizona",1982,1
+"2052","Arizona",1983,1
+"2053","Arizona",1984,1
+"2054","Arizona",1985,1
+"2055","Arizona",1986,1
+"2056","Arizona",1988,1
+"2057","Arizona",1989,1
+"2058","Arizona",1990,1
+"2059","Arizona",1991,0
+"2060","Arizona",1992,0
+"2061","Arizona",1993,0
+"2062","Arizona",1994,0
+"2063","Arizona",1995,0
+"2064","Arizona",1996,0
+"2065","Arizona",1997,0
+"2066","Arizona",1998,0
+"2067","Arizona",1999,0
+"2068","Arizona",2000,0
+"2069","Arizona",2001,0
+"2070","Arizona",2002,0
+"2071","Arizona",2003,1
+"2072","Arizona",2004,1
+"2073","Arizona",2005,1
+"2074","Arizona",2006,1
+"2075","Arizona",2007,1
+"2076","Arizona",2008,1
+"2077","Arizona",2009,0
+"2078","Arizona",2010,0
+"2079","Arkansas",1967,0
+"2080","Arkansas",1968,0
+"2081","Arkansas",1969,0
+"2082","Arkansas",1970,0
+"2083","Arkansas",1981,0
+"2084","Arkansas",1982,0
+"2085","Arkansas",1996,0
+"2086","Arkansas",1997,0
+"2087","Arkansas",1998,0
+"2088","Arkansas",1999,0
+"2089","Arkansas",2000,0
+"2090","Arkansas",2001,0
+"2091","Arkansas",2002,0
+"2092","Arkansas",2003,0
+"2093","Arkansas",2004,0
+"2094","Arkansas",2005,0
+"2095","Arkansas",2006,0
+"2096","California",1937,0
+"2097","California",1938,0
+"2098","California",1939,1
+"2099","California",1940,1
+"2100","California",1941,1
+"2101","California",1942,1
+"2102","California",1957,0
+"2103","California",1958,0
+"2104","California",1967,0
+"2105","California",1968,0
+"2106","California",1971,0
+"2107","California",1972,0
+"2108","California",1973,0
+"2109","California",1974,0
+"2110","California",1980,1
+"2111","California",1981,1
+"2112","California",1982,1
+"2113","California",1983,0
+"2114","California",1984,0
+"2115","California",1985,0
+"2116","California",1986,0
+"2117","California",1987,0
+"2118","California",1988,0
+"2119","California",1989,0
+"2120","California",1990,0
+"2121","California",1991,0
+"2122","California",1992,0
+"2123","California",1993,0
+"2124","California",1994,0
+"2125","California",1995,0
+"2126","California",1996,0
+"2127","California",1997,0
+"2128","California",1998,0
+"2129","California",1999,1
+"2130","California",2000,1
+"2131","California",2001,1
+"2132","California",2002,1
+"2133","California",2003,1
+"2134","California",2004,0
+"2135","California",2005,0
+"2136","California",2006,0
+"2137","California",2007,0
+"2138","California",2008,0
+"2139","California",2009,0
+"2140","California",2010,0
+"2141","Colorado",1939,0
+"2142","Colorado",1940,0
+"2143","Colorado",1941,0
+"2144","Colorado",1942,0
+"2145","Colorado",1947,1
+"2146","Colorado",1948,1
+"2147","Colorado",1949,1
+"2148","Colorado",1950,1
+"2149","Colorado",1955,1
+"2150","Colorado",1956,1
+"2151","Colorado",1965,0
+"2152","Colorado",1966,0
+"2153","Colorado",1975,1
+"2154","Colorado",1976,1
+"2155","Colorado",1977,1
+"2156","Colorado",1978,1
+"2157","Colorado",1979,1
+"2158","Colorado",1980,1
+"2159","Colorado",1981,1
+"2160","Colorado",1982,1
+"2161","Colorado",1983,1
+"2162","Colorado",1984,1
+"2163","Colorado",1985,1
+"2164","Colorado",1986,1
+"2165","Colorado",1987,1
+"2166","Colorado",1988,1
+"2167","Colorado",1989,1
+"2168","Colorado",1990,1
+"2169","Colorado",1991,1
+"2170","Colorado",1992,1
+"2171","Colorado",1993,1
+"2172","Colorado",1994,1
+"2173","Colorado",1995,1
+"2174","Colorado",1996,1
+"2175","Colorado",1997,1
+"2176","Colorado",1998,1
+"2177","Colorado",2001,0
+"2178","Colorado",2002,0
+"2179","Colorado",2005,0
+"2180","Colorado",2006,0
+"2181","Connecticut",1937,1
+"2182","Connecticut",1938,1
+"2183","Connecticut",1939,0
+"2184","Connecticut",1940,0
+"2185","Connecticut",1941,1
+"2186","Connecticut",1942,1
+"2187","Connecticut",1945,0
+"2188","Connecticut",1946,0
+"2189","Connecticut",1949,1
+"2190","Connecticut",1950,1
+"2191","Connecticut",1951,0
+"2192","Connecticut",1952,0
+"2193","Connecticut",1955,1
+"2194","Connecticut",1956,1
+"2195","Connecticut",1957,1
+"2196","Connecticut",1958,1
+"2197","Connecticut",1961,1
+"2198","Connecticut",1962,1
+"2199","Connecticut",1963,1
+"2200","Connecticut",1964,1
+"2201","Connecticut",1965,1
+"2202","Connecticut",1966,1
+"2203","Connecticut",1971,0
+"2204","Connecticut",1972,0
+"2205","Connecticut",1985,1
+"2206","Connecticut",1986,1
+"2207","Connecticut",1991,0.5
+"2208","Connecticut",1992,0.5
+"2209","Connecticut",1993,0.5
+"2210","Connecticut",1994,0.5
+"2211","Connecticut",1995,0
+"2212","Connecticut",1996,0
+"2213","Connecticut",1997,0
+"2214","Connecticut",1998,0
+"2215","Connecticut",1999,0
+"2216","Connecticut",2000,0
+"2217","Connecticut",2001,0
+"2218","Connecticut",2002,0
+"2219","Connecticut",2003,0
+"2220","Connecticut",2004,0
+"2221","Connecticut",2005,0
+"2222","Connecticut",2006,0
+"2223","Connecticut",2007,0
+"2224","Connecticut",2008,0
+"2225","Connecticut",2009,0
+"2226","Connecticut",2010,0
+"2227","Delaware",1937,1
+"2228","Delaware",1938,1
+"2229","Delaware",1939,1
+"2230","Delaware",1940,1
+"2231","Delaware",1949,1
+"2232","Delaware",1950,1
+"2233","Delaware",1951,1
+"2234","Delaware",1952,1
+"2235","Delaware",1955,0
+"2236","Delaware",1956,0
+"2237","Delaware",1957,0
+"2238","Delaware",1958,0
+"2239","Delaware",1959,0
+"2240","Delaware",1960,0
+"2241","Delaware",1967,1
+"2242","Delaware",1968,1
+"2243","Delaware",1973,1
+"2244","Delaware",1974,1
+"2245","Delaware",1977,0
+"2246","Delaware",1978,0
+"2247","Delaware",1979,0
+"2248","Delaware",1980,0
+"2249","Delaware",1981,0
+"2250","Delaware",1982,0
+"2251","Delaware",1983,0
+"2252","Delaware",1984,0
+"2253","Delaware",1985,0
+"2254","Delaware",1986,0
+"2255","Delaware",1987,0
+"2256","Delaware",1988,0
+"2257","Delaware",1989,0
+"2258","Delaware",1990,0
+"2259","Delaware",1991,0
+"2260","Delaware",1992,0
+"2261","Delaware",1993,1
+"2262","Delaware",1994,1
+"2263","Delaware",1995,1
+"2264","Delaware",1996,1
+"2265","Delaware",1997,1
+"2266","Delaware",1998,1
+"2267","Delaware",1999,1
+"2268","Delaware",2000,1
+"2269","Delaware",2001,1
+"2270","Delaware",2002,1
+"2271","Delaware",2003,1
+"2272","Delaware",2004,1
+"2273","Delaware",2005,1
+"2274","Delaware",2006,1
+"2275","Delaware",2007,1
+"2276","Delaware",2008,1
+"2277","Delaware",2009,1
+"2278","Delaware",2010,1
+"2279","Florida",1967,0
+"2280","Florida",1968,0
+"2281","Florida",1969,0
+"2282","Florida",1970,0
+"2283","Florida",1987,0
+"2284","Florida",1988,0
+"2285","Florida",1989,0
+"2286","Florida",1990,0
+"2287","Florida",1993,1
+"2288","Florida",1994,1
+"2289","Florida",1995,1
+"2290","Florida",1996,1
+"2291","Florida",1997,1
+"2292","Florida",1998,1
+"2293","Georgia",2003,0
+"2294","Georgia",2004,0
+"2295","Hawaii",1959,NA
+"2296","Hawaii",1960,0
+"2297","Hawaii",1961,0
+"2298","Hawaii",1962,0
+"2299","Hawaii",2003,0
+"2300","Hawaii",2004,0
+"2301","Hawaii",2005,0
+"2302","Hawaii",2006,0
+"2303","Hawaii",2007,0
+"2304","Hawaii",2008,0
+"2305","Hawaii",2009,0
+"2306","Hawaii",2010,0
+"2307","Idaho",1945,1
+"2308","Idaho",1946,1
+"2309","Idaho",1949,0
+"2310","Idaho",1950,0
+"2311","Idaho",1957,0
+"2312","Idaho",1958,0
+"2313","Idaho",1959,0
+"2314","Idaho",1960,0
+"2315","Idaho",1971,1
+"2316","Idaho",1972,1
+"2317","Idaho",1973,1
+"2318","Idaho",1974,1
+"2319","Idaho",1975,1
+"2320","Idaho",1976,1
+"2321","Idaho",1977,1
+"2322","Idaho",1978,1
+"2323","Idaho",1979,1
+"2324","Idaho",1980,1
+"2325","Idaho",1981,1
+"2326","Idaho",1982,1
+"2327","Idaho",1983,1
+"2328","Idaho",1984,1
+"2329","Idaho",1985,1
+"2330","Idaho",1986,1
+"2331","Idaho",1987,1
+"2332","Idaho",1988,1
+"2333","Idaho",1989,1
+"2334","Idaho",1990,1
+"2335","Idaho",1991,1
+"2336","Idaho",1992,1
+"2337","Idaho",1993,1
+"2338","Idaho",1994,1
+"2339","Illinois",1939,1
+"2340","Illinois",1940,1
+"2341","Illinois",1949,1
+"2342","Illinois",1950,1
+"2343","Illinois",1951,1
+"2344","Illinois",1952,1
+"2345","Illinois",1959,0
+"2346","Illinois",1960,0
+"2347","Illinois",1961,1
+"2348","Illinois",1962,1
+"2349","Illinois",1963,1
+"2350","Illinois",1964,1
+"2351","Illinois",1965,1
+"2352","Illinois",1966,1
+"2353","Illinois",1967,1
+"2354","Illinois",1968,1
+"2355","Illinois",1971,0
+"2356","Illinois",1972,0
+"2357","Illinois",1973,1
+"2358","Illinois",1974,1
+"2359","Illinois",1977,0
+"2360","Illinois",1978,0
+"2361","Illinois",1979,0
+"2362","Illinois",1980,0
+"2363","Illinois",1981,0
+"2364","Illinois",1982,0
+"2365","Illinois",1983,0
+"2366","Illinois",1984,0
+"2367","Illinois",1985,0
+"2368","Illinois",1986,0
+"2369","Illinois",1987,0
+"2370","Illinois",1988,0
+"2371","Illinois",1989,0
+"2372","Illinois",1990,0
+"2373","Illinois",1991,0
+"2374","Illinois",1992,0
+"2375","Illinois",1993,0
+"2376","Illinois",1994,0
+"2377","Illinois",1997,0
+"2378","Illinois",1998,0
+"2379","Illinois",1999,0
+"2380","Illinois",2000,0
+"2381","Illinois",2001,0
+"2382","Illinois",2002,0
+"2383","Indiana",1939,1
+"2384","Indiana",1940,1
+"2385","Indiana",1941,1
+"2386","Indiana",1942,1
+"2387","Indiana",1943,1
+"2388","Indiana",1944,1
+"2389","Indiana",1949,1
+"2390","Indiana",1950,1
+"2391","Indiana",1951,1
+"2392","Indiana",1952,1
+"2393","Indiana",1959,0
+"2394","Indiana",1960,0
+"2395","Indiana",1961,1
+"2396","Indiana",1962,1
+"2397","Indiana",1963,1
+"2398","Indiana",1964,1
+"2399","Indiana",1967,1
+"2400","Indiana",1968,1
+"2401","Indiana",1975,0
+"2402","Indiana",1976,0
+"2403","Indiana",1977,0
+"2404","Indiana",1978,0
+"2405","Indiana",1989,1
+"2406","Indiana",1990,1
+"2407","Indiana",1991,1
+"2408","Indiana",1992,1
+"2409","Indiana",1993,1
+"2410","Indiana",1994,1
+"2411","Indiana",1995,1
+"2412","Indiana",1996,1
+"2413","Indiana",1997,1
+"2414","Indiana",1998,1
+"2415","Indiana",1999,1
+"2416","Indiana",2000,1
+"2417","Indiana",2001,1
+"2418","Indiana",2002,1
+"2419","Indiana",2003,1
+"2420","Indiana",2004,1
+"2421","Indiana",2007,0
+"2422","Indiana",2008,0
+"2423","Indiana",2009,0
+"2424","Indiana",2010,0
+"2425","Iowa",1937,1
+"2426","Iowa",1938,1
+"2427","Iowa",1957,1
+"2428","Iowa",1958,1
+"2429","Iowa",1959,1
+"2430","Iowa",1960,1
+"2431","Iowa",1963,1
+"2432","Iowa",1964,1
+"2433","Iowa",1967,1
+"2434","Iowa",1968,1
+"2435","Iowa",1975,0
+"2436","Iowa",1976,0
+"2437","Iowa",1977,0
+"2438","Iowa",1978,0
+"2439","Iowa",1983,0
+"2440","Iowa",1984,0
+"2441","Iowa",1985,0
+"2442","Iowa",1986,0
+"2443","Iowa",1987,0
+"2444","Iowa",1988,0
+"2445","Iowa",1989,0
+"2446","Iowa",1990,0
+"2447","Iowa",1991,0
+"2448","Iowa",1992,0
+"2449","Iowa",1993,0
+"2450","Iowa",1994,0
+"2451","Iowa",1995,0
+"2452","Iowa",1996,0
+"2453","Iowa",1999,1
+"2454","Iowa",2000,1
+"2455","Iowa",2001,1
+"2456","Iowa",2002,1
+"2457","Iowa",2003,1
+"2458","Iowa",2004,1
+"2459","Iowa",2005,1
+"2460","Iowa",2006,1
+"2461","Kansas",1937,1
+"2462","Kansas",1938,1
+"2463","Kansas",1957,1
+"2464","Kansas",1958,1
+"2465","Kansas",1959,1
+"2466","Kansas",1960,1
+"2467","Kansas",1967,1
+"2468","Kansas",1968,1
+"2469","Kansas",1969,1
+"2470","Kansas",1970,1
+"2471","Kansas",1971,1
+"2472","Kansas",1972,1
+"2473","Kansas",1973,1
+"2474","Kansas",1974,1
+"2475","Kansas",1977,0
+"2476","Kansas",1978,0
+"2477","Kansas",1979,1
+"2478","Kansas",1980,1
+"2479","Kansas",1981,1
+"2480","Kansas",1982,1
+"2481","Kansas",1983,1
+"2482","Kansas",1984,1
+"2483","Kansas",1985,1
+"2484","Kansas",1986,1
+"2485","Kansas",1991,1
+"2486","Kansas",1992,1
+"2487","Kansas",1993,1
+"2488","Kansas",1994,1
+"2489","Kansas",2003,1
+"2490","Kansas",2004,1
+"2491","Kansas",2005,1
+"2492","Kansas",2006,1
+"2493","Kansas",2007,1
+"2494","Kansas",2008,1
+"2495","Kansas",2009,1
+"2496","Kansas",2010,1
+"2497","Kentucky",1944,0
+"2498","Kentucky",1945,0
+"2499","Kentucky",1946,0
+"2500","Kentucky",1947,0
+"2501","Kentucky",1968,0
+"2502","Kentucky",1969,0
+"2503","Kentucky",1970,0
+"2504","Kentucky",1971,0
+"2505","Kentucky",2000,1
+"2506","Kentucky",2001,1
+"2507","Kentucky",2002,1
+"2508","Kentucky",2003,1
+"2509","Kentucky",2004,0
+"2510","Kentucky",2005,0
+"2511","Kentucky",2006,0
+"2512","Kentucky",2007,0
+"2513","Kentucky",2008,1
+"2514","Kentucky",2009,1
+"2515","Kentucky",2010,1
+"2516","Louisiana",1980,0
+"2517","Louisiana",1981,0
+"2518","Louisiana",1982,0
+"2519","Louisiana",1983,0
+"2520","Louisiana",1991,0
+"2521","Louisiana",1996,0
+"2522","Louisiana",1997,0
+"2523","Louisiana",1998,0
+"2524","Louisiana",1999,0
+"2525","Louisiana",2000,0
+"2526","Louisiana",2001,0
+"2527","Louisiana",2002,0
+"2528","Louisiana",2003,0
+"2529","Louisiana",2004,1
+"2530","Louisiana",2005,1
+"2531","Louisiana",2006,1
+"2532","Louisiana",2007,1
+"2533","Louisiana",2008,0
+"2534","Louisiana",2009,0
+"2535","Louisiana",2010,0
+"2536","Maine",1955,1
+"2537","Maine",1956,1
+"2538","Maine",1957,1
+"2539","Maine",1958,1
+"2540","Maine",1959,1
+"2541","Maine",1965,0
+"2542","Maine",1966,0
+"2543","Maine",1967,1
+"2544","Maine",1968,1
+"2545","Maine",1969,1
+"2546","Maine",1970,1
+"2547","Maine",1971,1
+"2548","Maine",1972,1
+"2549","Maine",1973,1
+"2550","Maine",1974,1
+"2551","Maine",1975,0.5
+"2552","Maine",1976,0.5
+"2553","Maine",1977,0.5
+"2554","Maine",1978,0.5
+"2555","Maine",1979,1
+"2556","Maine",1980,1
+"2557","Maine",1981,1
+"2558","Maine",1982,1
+"2559","Maine",1987,0
+"2560","Maine",1988,0
+"2561","Maine",1989,0
+"2562","Maine",1990,0
+"2563","Maine",1991,0
+"2564","Maine",1992,0
+"2565","Maine",1993,0
+"2566","Maine",1994,0
+"2567","Maine",1995,0.5
+"2568","Maine",1996,0.5
+"2569","Maine",1997,0.5
+"2570","Maine",1998,0.5
+"2571","Maine",1999,0.5
+"2572","Maine",2000,0.5
+"2573","Maine",2001,0.5
+"2574","Maine",2002,0.5
+"2575","Maryland",1951,0
+"2576","Maryland",1952,0
+"2577","Maryland",1953,0
+"2578","Maryland",1954,0
+"2579","Maryland",1955,0
+"2580","Maryland",1956,0
+"2581","Maryland",1957,0
+"2582","Maryland",1958,0
+"2583","Maryland",1967,0
+"2584","Maryland",1968,0
+"2585","Maryland",2003,0
+"2586","Maryland",2004,0
+"2587","Maryland",2005,0
+"2588","Maryland",2006,0
+"2589","Massachusetts",1937,1
+"2590","Massachusetts",1938,1
+"2591","Massachusetts",1945,1
+"2592","Massachusetts",1946,1
+"2593","Massachusetts",1949,1
+"2594","Massachusetts",1950,1
+"2595","Massachusetts",1951,1
+"2596","Massachusetts",1952,1
+"2597","Massachusetts",1955,0
+"2598","Massachusetts",1956,0
+"2599","Massachusetts",1957,1
+"2600","Massachusetts",1958,1
+"2601","Massachusetts",1961,0
+"2602","Massachusetts",1962,0
+"2603","Massachusetts",1965,0
+"2604","Massachusetts",1966,0
+"2605","Massachusetts",1967,0
+"2606","Massachusetts",1968,0
+"2607","Massachusetts",1969,0
+"2608","Massachusetts",1970,0
+"2609","Massachusetts",1971,0
+"2610","Massachusetts",1972,0
+"2611","Massachusetts",1973,0
+"2612","Massachusetts",1974,0
+"2613","Massachusetts",1991,0
+"2614","Massachusetts",1992,0
+"2615","Massachusetts",1993,0
+"2616","Massachusetts",1994,0
+"2617","Massachusetts",1995,0
+"2618","Massachusetts",1996,0
+"2619","Massachusetts",1997,0
+"2620","Massachusetts",1998,0
+"2621","Massachusetts",1999,0
+"2622","Massachusetts",2000,0
+"2623","Massachusetts",2001,0
+"2624","Massachusetts",2002,0
+"2625","Massachusetts",2003,0
+"2626","Massachusetts",2004,0
+"2627","Massachusetts",2005,0
+"2628","Massachusetts",2006,0
+"2629","Michigan",1941,1
+"2630","Michigan",1942,1
+"2631","Michigan",1949,1
+"2632","Michigan",1950,1
+"2633","Michigan",1951,1
+"2634","Michigan",1952,1
+"2635","Michigan",1953,1
+"2636","Michigan",1954,1
+"2637","Michigan",1955,1
+"2638","Michigan",1956,1
+"2639","Michigan",1957,1
+"2640","Michigan",1958,1
+"2641","Michigan",1959,1
+"2642","Michigan",1960,1
+"2643","Michigan",1961,1
+"2644","Michigan",1962,1
+"2645","Michigan",1965,0
+"2646","Michigan",1966,0
+"2647","Michigan",1969,0
+"2648","Michigan",1970,0
+"2649","Michigan",1971,0
+"2650","Michigan",1972,0
+"2651","Michigan",1973,0
+"2652","Michigan",1974,0
+"2653","Michigan",1975,0
+"2654","Michigan",1976,0
+"2655","Michigan",1977,0
+"2656","Michigan",1978,0
+"2657","Michigan",1979,0
+"2658","Michigan",1980,0
+"2659","Michigan",1981,0
+"2660","Michigan",1982,0
+"2661","Michigan",1984,1
+"2662","Michigan",1985,1
+"2663","Michigan",1986,1
+"2664","Michigan",1987,1
+"2665","Michigan",1988,1
+"2666","Michigan",1989,1
+"2667","Michigan",1990,1
+"2668","Michigan",1991,0
+"2669","Michigan",1992,0
+"2670","Michigan",1993,0
+"2671","Michigan",1994,0
+"2672","Michigan",1997,0
+"2673","Michigan",1998,0
+"2674","Michigan",2003,1
+"2675","Michigan",2004,1
+"2676","Michigan",2005,1
+"2677","Michigan",2006,1
+"2678","Michigan",2007,1
+"2679","Michigan",2008,1
+"2680","Michigan",2009,1
+"2681","Michigan",2010,1
+"2682","Minnesota",1937,0.5
+"2683","Minnesota",1938,0.5
+"2684","Minnesota",1955,1
+"2685","Minnesota",1956,1
+"2686","Minnesota",1957,1
+"2687","Minnesota",1958,1
+"2688","Minnesota",1959,1
+"2689","Minnesota",1960,1
+"2690","Minnesota",1961,0
+"2691","Minnesota",1962,0
+"2692","Minnesota",1963,1
+"2693","Minnesota",1964,1
+"2694","Minnesota",1965,1
+"2695","Minnesota",1966,1
+"2696","Minnesota",1971,1
+"2697","Minnesota",1972,1
+"2698","Minnesota",1979,0
+"2699","Minnesota",1980,0
+"2700","Minnesota",1981,0
+"2701","Minnesota",1982,0
+"2702","Minnesota",1985,1
+"2703","Minnesota",1986,1
+"2704","Minnesota",1991,0
+"2705","Minnesota",1992,0
+"2706","Minnesota",1993,0
+"2707","Minnesota",1994,0
+"2708","Minnesota",1995,0
+"2709","Minnesota",1996,0
+"2710","Minnesota",1997,0
+"2711","Minnesota",1998,0
+"2712","Minnesota",1999,0.5
+"2713","Minnesota",2000,0.5
+"2714","Minnesota",2001,0.5
+"2715","Minnesota",2002,0.5
+"2716","Minnesota",2003,0
+"2717","Minnesota",2004,0
+"2718","Minnesota",2005,0
+"2719","Minnesota",2006,0
+"2720","Minnesota",2007,0
+"2721","Minnesota",2008,0
+"2722","Minnesota",2009,0
+"2723","Minnesota",2010,0
+"2724","Mississippi",1992,0
+"2725","Mississippi",1993,0
+"2726","Mississippi",1994,0
+"2727","Mississippi",1995,0
+"2728","Mississippi",1996,0
+"2729","Mississippi",1997,0
+"2730","Mississippi",1998,0
+"2731","Mississippi",1999,0
+"2732","Mississippi",2004,0
+"2733","Mississippi",2005,0
+"2734","Mississippi",2006,0
+"2735","Mississippi",2007,0
+"2736","Mississippi",2008,0
+"2737","Mississippi",2009,0
+"2738","Mississippi",2010,0
+"2739","Missouri",1941,0
+"2740","Missouri",1942,0
+"2741","Missouri",1943,0
+"2742","Missouri",1944,0
+"2743","Missouri",1945,1
+"2744","Missouri",1946,1
+"2745","Missouri",1947,1
+"2746","Missouri",1948,1
+"2747","Missouri",1953,1
+"2748","Missouri",1954,1
+"2749","Missouri",1973,0
+"2750","Missouri",1974,0
+"2751","Missouri",1975,0
+"2752","Missouri",1976,0
+"2753","Missouri",1981,0
+"2754","Missouri",1982,0
+"2755","Missouri",1983,0
+"2756","Missouri",1984,0
+"2757","Missouri",1985,0
+"2758","Missouri",1986,0
+"2759","Missouri",1987,0
+"2760","Missouri",1988,0
+"2761","Missouri",1989,0
+"2762","Missouri",1990,0
+"2763","Missouri",1991,0
+"2764","Missouri",1992,0
+"2765","Missouri",1997,1
+"2766","Missouri",1998,1
+"2767","Missouri",1999,1
+"2768","Missouri",2000,1
+"2769","Missouri",2001,1
+"2770","Missouri",2002,1
+"2771","Missouri",2003,1
+"2772","Missouri",2004,1
+"2773","Missouri",2005,0
+"2774","Missouri",2006,0
+"2775","Missouri",2007,0
+"2776","Missouri",2008,0
+"2777","Missouri",2009,1
+"2778","Missouri",2010,1
+"2779","Montana",1941,0
+"2780","Montana",1942,0
+"2781","Montana",1949,1
+"2782","Montana",1950,1
+"2783","Montana",1951,1
+"2784","Montana",1952,1
+"2785","Montana",1955,0
+"2786","Montana",1956,0
+"2787","Montana",1957,0
+"2788","Montana",1958,0
+"2789","Montana",1959,0
+"2790","Montana",1960,0
+"2791","Montana",1961,0
+"2792","Montana",1962,0
+"2793","Montana",1963,0
+"2794","Montana",1964,0
+"2795","Montana",1965,0
+"2796","Montana",1966,0
+"2797","Montana",1967,0
+"2798","Montana",1968,0
+"2799","Montana",1969,1
+"2800","Montana",1970,1
+"2801","Montana",1971,1
+"2802","Montana",1972,1
+"2803","Montana",1977,1
+"2804","Montana",1978,1
+"2805","Montana",1979,1
+"2806","Montana",1980,1
+"2807","Montana",1981,1
+"2808","Montana",1982,1
+"2809","Montana",1983,1
+"2810","Montana",1984,1
+"2811","Montana",1985,1
+"2812","Montana",1986,1
+"2813","Montana",1987,1
+"2814","Montana",1988,1
+"2815","Montana",1989,0
+"2816","Montana",1990,0
+"2817","Montana",1991,0
+"2818","Montana",1992,0
+"2819","Montana",1993,0
+"2820","Montana",1994,0
+"2821","Montana",2005,1
+"2822","Montana",2006,1
+"2823","Montana",2007,1
+"2824","Montana",2008,1
+"2825","Montana",2009,1
+"2826","Montana",2010,1
+"2827","Nevada",1939,1
+"2828","Nevada",1940,1
+"2829","Nevada",1941,1
+"2830","Nevada",1942,1
+"2831","Nevada",1943,1
+"2832","Nevada",1944,1
+"2833","Nevada",1945,1
+"2834","Nevada",1946,1
+"2835","Nevada",1947,1
+"2836","Nevada",1948,1
+"2837","Nevada",1949,1
+"2838","Nevada",1950,1
+"2839","Nevada",1951,0
+"2840","Nevada",1952,0
+"2841","Nevada",1953,0
+"2842","Nevada",1954,0
+"2843","Nevada",1955,0
+"2844","Nevada",1956,0
+"2845","Nevada",1957,0
+"2846","Nevada",1958,0
+"2847","Nevada",1959,1
+"2848","Nevada",1960,1
+"2849","Nevada",1961,1
+"2850","Nevada",1962,1
+"2851","Nevada",1963,1
+"2852","Nevada",1964,1
+"2853","Nevada",1967,0
+"2854","Nevada",1968,0
+"2855","Nevada",1969,0
+"2856","Nevada",1970,0
+"2857","Nevada",1971,1
+"2858","Nevada",1972,1
+"2859","Nevada",1979,0
+"2860","Nevada",1980,0
+"2861","Nevada",1981,0
+"2862","Nevada",1982,0
+"2863","Nevada",1985,1
+"2864","Nevada",1986,1
+"2865","Nevada",1987,1
+"2866","Nevada",1988,1
+"2867","Nevada",1989,1
+"2868","Nevada",1990,1
+"2869","Nevada",1993,1
+"2870","Nevada",1994,1
+"2871","Nevada",1995,1
+"2872","Nevada",1996,1
+"2873","Nevada",1997,1
+"2874","Nevada",1998,1
+"2875","Nevada",1999,0
+"2876","Nevada",2000,0
+"2877","Nevada",2001,0
+"2878","Nevada",2002,0
+"2879","Nevada",2003,0
+"2880","Nevada",2004,0
+"2881","Nevada",2005,0
+"2882","Nevada",2006,0
+"2883","Nevada",2007,0
+"2884","Nevada",2008,0
+"2885","Nevada",2009,0
+"2886","Nevada",2010,0
+"2887","New Hampshire",1963,1
+"2888","New Hampshire",1964,1
+"2889","New Hampshire",1965,1
+"2890","New Hampshire",1966,1
+"2891","New Hampshire",1967,1
+"2892","New Hampshire",1968,1
+"2893","New Hampshire",1975,0
+"2894","New Hampshire",1976,0
+"2895","New Hampshire",1977,0
+"2896","New Hampshire",1978,0
+"2897","New Hampshire",1979,1
+"2898","New Hampshire",1980,1
+"2899","New Hampshire",1981,1
+"2900","New Hampshire",1982,1
+"2901","New Hampshire",1997,1
+"2902","New Hampshire",1998,1
+"2903","New Hampshire",1999,1
+"2904","New Hampshire",2000,1
+"2905","New Hampshire",2001,1
+"2906","New Hampshire",2002,1
+"2907","New Hampshire",2005,1
+"2908","New Hampshire",2006,1
+"2909","New Jersey",1937,0
+"2910","New Jersey",1938,1
+"2911","New Jersey",1939,1
+"2912","New Jersey",1940,1
+"2913","New Jersey",1941,1
+"2914","New Jersey",1942,1
+"2915","New Jersey",1943,1
+"2916","New Jersey",1954,1
+"2917","New Jersey",1955,1
+"2918","New Jersey",1956,1
+"2919","New Jersey",1957,1
+"2920","New Jersey",1958,1
+"2921","New Jersey",1959,1
+"2922","New Jersey",1960,1
+"2923","New Jersey",1961,1
+"2924","New Jersey",1962,1
+"2925","New Jersey",1963,1
+"2926","New Jersey",1964,1
+"2927","New Jersey",1965,1
+"2928","New Jersey",1968,1
+"2929","New Jersey",1969,1
+"2930","New Jersey",1972,0
+"2931","New Jersey",1973,0
+"2932","New Jersey",1982,0
+"2933","New Jersey",1983,0
+"2934","New Jersey",1984,0
+"2935","New Jersey",1985,0
+"2936","New Jersey",1986,0
+"2937","New Jersey",1987,0
+"2938","New Jersey",1988,0
+"2939","New Jersey",1989,0
+"2940","New Jersey",1992,1
+"2941","New Jersey",1993,1
+"2942","New Jersey",2002,1
+"2943","New Jersey",2003,1
+"2944","New Jersey",2010,0
+"2945","New Mexico",1951,0
+"2946","New Mexico",1952,0
+"2947","New Mexico",1953,0
+"2948","New Mexico",1954,0
+"2949","New Mexico",1957,0
+"2950","New Mexico",1958,0
+"2951","New Mexico",1961,0
+"2952","New Mexico",1962,0
+"2953","New Mexico",1967,0
+"2954","New Mexico",1968,0
+"2955","New Mexico",1969,0
+"2956","New Mexico",1970,0
+"2957","New Mexico",1985,1
+"2958","New Mexico",1986,1
+"2959","New Mexico",1987,0
+"2960","New Mexico",1988,0
+"2961","New Mexico",1989,0
+"2962","New Mexico",1990,0
+"2963","New Mexico",1995,0
+"2964","New Mexico",1996,0
+"2965","New Mexico",1997,0
+"2966","New Mexico",1998,0
+"2967","New Mexico",1999,0
+"2968","New Mexico",2000,0
+"2969","New Mexico",2001,0
+"2970","New Mexico",2002,0
+"2971","New York",1937,1
+"2972","New York",1938,1
+"2973","New York",1939,1
+"2974","New York",1940,1
+"2975","New York",1941,1
+"2976","New York",1942,1
+"2977","New York",1955,1
+"2978","New York",1956,1
+"2979","New York",1957,1
+"2980","New York",1958,1
+"2981","New York",1965,0
+"2982","New York",1966,0
+"2983","New York",1967,0
+"2984","New York",1968,0
+"2985","New York",1975,1
+"2986","New York",1976,1
+"2987","New York",1977,1
+"2988","New York",1978,1
+"2989","New York",1979,1
+"2990","New York",1980,1
+"2991","New York",1981,1
+"2992","New York",1982,1
+"2993","New York",1983,1
+"2994","New York",1984,1
+"2995","New York",1985,1
+"2996","New York",1986,1
+"2997","New York",1987,1
+"2998","New York",1988,1
+"2999","New York",1989,1
+"3000","New York",1990,1
+"3001","New York",1991,1
+"3002","New York",1992,1
+"3003","New York",1993,1
+"3004","New York",1994,1
+"3005","New York",1995,0
+"3006","New York",1996,0
+"3007","New York",1997,0
+"3008","New York",1998,0
+"3009","New York",1999,0
+"3010","New York",2000,0
+"3011","New York",2001,0
+"3012","New York",2002,0
+"3013","New York",2003,0
+"3014","New York",2004,0
+"3015","New York",2005,0
+"3016","New York",2006,0
+"3017","New York",2007,1
+"3018","New York",2008,1
+"3019","North Carolina",1973,0
+"3020","North Carolina",1974,0
+"3021","North Carolina",1975,0
+"3022","North Carolina",1976,0
+"3023","North Carolina",1985,0
+"3024","North Carolina",1986,0
+"3025","North Carolina",1987,0
+"3026","North Carolina",1988,0
+"3027","North Carolina",1989,0
+"3028","North Carolina",1990,0
+"3029","North Carolina",1991,0
+"3030","North Carolina",1992,0
+"3031","North Carolina",1995,1
+"3032","North Carolina",1996,1
+"3033","North Carolina",1997,1
+"3034","North Carolina",1998,1
+"3035","North Carolina",2003,1
+"3036","North Dakota",1937,0.5
+"3037","North Dakota",1938,0.5
+"3038","North Dakota",1939,1
+"3039","North Dakota",1940,1
+"3040","North Dakota",1941,1
+"3041","North Dakota",1942,1
+"3042","North Dakota",1943,1
+"3043","North Dakota",1944,1
+"3044","North Dakota",1961,1
+"3045","North Dakota",1962,1
+"3046","North Dakota",1963,1
+"3047","North Dakota",1964,1
+"3048","North Dakota",1965,1
+"3049","North Dakota",1966,1
+"3050","North Dakota",1967,1
+"3051","North Dakota",1968,1
+"3052","North Dakota",1969,1
+"3053","North Dakota",1970,1
+"3054","North Dakota",1971,1
+"3055","North Dakota",1972,1
+"3056","North Dakota",1973,1
+"3057","North Dakota",1974,1
+"3058","North Dakota",1975,1
+"3059","North Dakota",1976,1
+"3060","North Dakota",1977,1
+"3061","North Dakota",1978,1
+"3062","North Dakota",1979,1
+"3063","North Dakota",1980,1
+"3064","North Dakota",1983,0
+"3065","North Dakota",1984,0
+"3066","North Dakota",1985,1
+"3067","North Dakota",1986,1
+"3068","North Dakota",1987,1
+"3069","North Dakota",1988,1
+"3070","North Dakota",1989,1
+"3071","North Dakota",1990,1
+"3072","North Dakota",1991,1
+"3073","North Dakota",1992,1
+"3074","North Dakota",1993,0
+"3075","North Dakota",1994,0
+"3076","Ohio",1945,1
+"3077","Ohio",1946,1
+"3078","Ohio",1951,1
+"3079","Ohio",1952,1
+"3080","Ohio",1953,1
+"3081","Ohio",1954,1
+"3082","Ohio",1955,1
+"3083","Ohio",1956,1
+"3084","Ohio",1961,1
+"3085","Ohio",1962,1
+"3086","Ohio",1971,1
+"3087","Ohio",1972,1
+"3088","Ohio",1973,1
+"3089","Ohio",1974,1
+"3090","Ohio",1975,0
+"3091","Ohio",1976,0
+"3092","Ohio",1977,0
+"3093","Ohio",1978,0
+"3094","Ohio",1979,0
+"3095","Ohio",1980,0
+"3096","Ohio",1981,0
+"3097","Ohio",1982,0
+"3098","Ohio",1985,1
+"3099","Ohio",1986,1
+"3100","Ohio",1987,1
+"3101","Ohio",1988,1
+"3102","Ohio",1989,1
+"3103","Ohio",1990,1
+"3104","Ohio",1991,0
+"3105","Ohio",1992,0
+"3106","Ohio",1993,0
+"3107","Ohio",1994,0
+"3108","Ohio",2007,1
+"3109","Ohio",2008,1
+"3110","Ohio",2009,1
+"3111","Ohio",2010,1
+"3112","Oklahoma",1963,0
+"3113","Oklahoma",1964,0
+"3114","Oklahoma",1965,0
+"3115","Oklahoma",1966,0
+"3116","Oklahoma",1967,0
+"3117","Oklahoma",1968,0
+"3118","Oklahoma",1969,0
+"3119","Oklahoma",1970,0
+"3120","Oklahoma",1987,0
+"3121","Oklahoma",1988,0
+"3122","Oklahoma",1989,0
+"3123","Oklahoma",1990,0
+"3124","Oklahoma",1993,1
+"3125","Oklahoma",1994,1
+"3126","Oklahoma",1995,0
+"3127","Oklahoma",1996,0
+"3128","Oklahoma",1997,0
+"3129","Oklahoma",1998,0
+"3130","Oklahoma",1999,0
+"3131","Oklahoma",2000,0
+"3132","Oklahoma",2001,0
+"3133","Oklahoma",2002,0
+"3134","Oklahoma",2003,1
+"3135","Oklahoma",2004,1
+"3136","Oklahoma",2005,1
+"3137","Oklahoma",2006,1
+"3138","Oklahoma",2007,1
+"3139","Oklahoma",2008,1
+"3140","Oklahoma",2009,1
+"3141","Oklahoma",2010,1
+"3142","Oregon",1937,1
+"3143","Oregon",1938,1
+"3144","Oregon",1957,1
+"3145","Oregon",1958,1
+"3146","Oregon",1959,0
+"3147","Oregon",1960,0
+"3148","Oregon",1961,0
+"3149","Oregon",1962,0
+"3150","Oregon",1963,0
+"3151","Oregon",1964,0
+"3152","Oregon",1965,0
+"3153","Oregon",1966,0
+"3154","Oregon",1967,0
+"3155","Oregon",1968,0
+"3156","Oregon",1969,0
+"3157","Oregon",1970,0
+"3158","Oregon",1971,0
+"3159","Oregon",1972,0
+"3160","Oregon",1973,0
+"3161","Oregon",1974,0
+"3162","Oregon",1979,0
+"3163","Oregon",1980,0
+"3164","Oregon",1981,0
+"3165","Oregon",1982,0
+"3166","Oregon",1983,0
+"3167","Oregon",1984,0
+"3168","Oregon",1985,0
+"3169","Oregon",1986,0
+"3170","Oregon",1991,1
+"3171","Oregon",1992,1
+"3172","Oregon",1993,1
+"3173","Oregon",1994,1
+"3174","Oregon",1995,1
+"3175","Oregon",1996,1
+"3176","Oregon",1997,1
+"3177","Oregon",1998,1
+"3178","Oregon",1999,1
+"3179","Oregon",2000,1
+"3180","Oregon",2001,1
+"3181","Oregon",2002,1
+"3182","Oregon",2003,1
+"3183","Oregon",2004,1
+"3184","Oregon",2005,1
+"3185","Oregon",2006,1
+"3186","Oregon",2007,1
+"3187","Oregon",2008,1
+"3188","Oregon",2009,1
+"3189","Oregon",2010,1
+"3190","Pennsylvania",1939,0
+"3191","Pennsylvania",1940,0
+"3192","Pennsylvania",1941,0
+"3193","Pennsylvania",1942,0
+"3194","Pennsylvania",1955,1
+"3195","Pennsylvania",1956,1
+"3196","Pennsylvania",1957,1
+"3197","Pennsylvania",1958,1
+"3198","Pennsylvania",1959,1
+"3199","Pennsylvania",1960,1
+"3200","Pennsylvania",1965,0
+"3201","Pennsylvania",1966,0
+"3202","Pennsylvania",1969,0
+"3203","Pennsylvania",1970,0
+"3204","Pennsylvania",1973,1
+"3205","Pennsylvania",1974,1
+"3206","Pennsylvania",1979,0
+"3207","Pennsylvania",1980,0
+"3208","Pennsylvania",1983,0
+"3209","Pennsylvania",1984,0
+"3210","Pennsylvania",1985,0
+"3211","Pennsylvania",1986,0
+"3212","Pennsylvania",1987,1
+"3213","Pennsylvania",1988,1
+"3214","Pennsylvania",1989,1
+"3215","Pennsylvania",1990,1
+"3216","Pennsylvania",1991,1
+"3217","Pennsylvania",1992,1
+"3218","Pennsylvania",1994,1
+"3219","Pennsylvania",2003,1
+"3220","Pennsylvania",2004,1
+"3221","Pennsylvania",2005,1
+"3222","Pennsylvania",2006,1
+"3223","Pennsylvania",2007,1
+"3224","Pennsylvania",2008,1
+"3225","Pennsylvania",2009,1
+"3226","Pennsylvania",2010,1
+"3227","Rhode Island",1937,1
+"3228","Rhode Island",1938,1
+"3229","Rhode Island",1941,1
+"3230","Rhode Island",1942,1
+"3231","Rhode Island",1943,1
+"3232","Rhode Island",1944,1
+"3233","Rhode Island",1945,1
+"3234","Rhode Island",1946,1
+"3235","Rhode Island",1947,1
+"3236","Rhode Island",1948,1
+"3237","Rhode Island",1949,1
+"3238","Rhode Island",1950,1
+"3239","Rhode Island",1951,1
+"3240","Rhode Island",1952,1
+"3241","Rhode Island",1953,1
+"3242","Rhode Island",1954,1
+"3243","Rhode Island",1955,1
+"3244","Rhode Island",1956,1
+"3245","Rhode Island",1957,1
+"3246","Rhode Island",1958,1
+"3247","Rhode Island",1959,0
+"3248","Rhode Island",1960,0
+"3249","Rhode Island",1963,0
+"3250","Rhode Island",1964,0
+"3251","Rhode Island",1965,0
+"3252","Rhode Island",1966,0
+"3253","Rhode Island",1967,0
+"3254","Rhode Island",1968,0
+"3255","Rhode Island",1985,0
+"3256","Rhode Island",1986,0
+"3257","Rhode Island",1987,0
+"3258","Rhode Island",1988,0
+"3259","Rhode Island",1989,0
+"3260","Rhode Island",1990,0
+"3261","Rhode Island",1995,0
+"3262","Rhode Island",1996,0
+"3263","Rhode Island",1997,0
+"3264","Rhode Island",1998,0
+"3265","Rhode Island",1999,0
+"3266","Rhode Island",2000,0
+"3267","Rhode Island",2001,0
+"3268","Rhode Island",2002,0
+"3269","Rhode Island",2003,0
+"3270","Rhode Island",2004,0
+"3271","Rhode Island",2005,0
+"3272","Rhode Island",2006,0
+"3273","Rhode Island",2007,0
+"3274","Rhode Island",2008,0
+"3275","Rhode Island",2009,0
+"3276","Rhode Island",2010,0
+"3277","Rhode Island",2011,0.5
+"3278","South Carolina",1975,0
+"3279","South Carolina",1976,0
+"3280","South Carolina",1977,0
+"3281","South Carolina",1978,0
+"3282","South Carolina",1987,0
+"3283","South Carolina",1988,0
+"3284","South Carolina",1989,0
+"3285","South Carolina",1990,0
+"3286","South Carolina",1991,0
+"3287","South Carolina",1992,0
+"3288","South Carolina",1993,0
+"3289","South Carolina",1994,0
+"3290","South Carolina",1995,0
+"3291","South Carolina",1996,0
+"3292","South Carolina",1997,0
+"3293","South Carolina",1998,0
+"3294","South Carolina",1999,1
+"3295","South Carolina",2000,1
+"3296","South Carolina",2001,1
+"3297","South Carolina",2002,1
+"3298","South Dakota",1959,1
+"3299","South Dakota",1960,1
+"3300","South Dakota",1971,1
+"3301","South Dakota",1972,1
+"3302","South Dakota",1975,1
+"3303","South Dakota",1976,1
+"3304","South Dakota",1977,1
+"3305","South Dakota",1978,1
+"3306","South Dakota",1993,0
+"3307","South Dakota",1994,0
+"3308","South Dakota",1997,0
+"3309","South Dakota",1998,0
+"3310","South Dakota",1999,0
+"3311","South Dakota",2000,0
+"3312","South Dakota",2007,0
+"3313","South Dakota",2008,0
+"3314","South Dakota",2009,0
+"3315","South Dakota",2010,0
+"3316","Tennessee",1969,1
+"3317","Tennessee",1970,1
+"3318","Tennessee",1971,0
+"3319","Tennessee",1972,0
+"3320","Tennessee",1973,0
+"3321","Tennessee",1974,0
+"3322","Tennessee",1979,0
+"3323","Tennessee",1980,0
+"3324","Tennessee",1981,0
+"3325","Tennessee",1982,0
+"3326","Tennessee",1983,0
+"3327","Tennessee",1984,0
+"3328","Tennessee",1985,0
+"3329","Tennessee",1986,0
+"3330","Tennessee",1995,0
+"3331","Tennessee",1996,0
+"3332","Tennessee",1997,0
+"3333","Tennessee",1998,0
+"3334","Tennessee",1999,0
+"3335","Tennessee",2000,0
+"3336","Tennessee",2001,0
+"3337","Tennessee",2002,0
+"3338","Tennessee",2005,1
+"3339","Tennessee",2006,1
+"3340","Tennessee",2007,1
+"3341","Tennessee",2008,1
+"3342","Tennessee",2009,1
+"3343","Tennessee",2010,1
+"3344","Texas",1979,0
+"3345","Texas",1980,0
+"3346","Texas",1981,0
+"3347","Texas",1982,0
+"3348","Texas",1987,0
+"3349","Texas",1988,0
+"3350","Texas",1989,0
+"3351","Texas",1990,0
+"3352","Texas",1995,0
+"3353","Texas",1996,0
+"3354","Texas",1997,0
+"3355","Texas",1998,0
+"3356","Texas",1999,0
+"3357","Texas",2000,0
+"3358","Texas",2001,0
+"3359","Texas",2002,0
+"3360","Utah",1947,1
+"3361","Utah",1948,1
+"3362","Utah",1949,0
+"3363","Utah",1950,0
+"3364","Utah",1951,0
+"3365","Utah",1952,0
+"3366","Utah",1959,0
+"3367","Utah",1960,0
+"3368","Utah",1961,0
+"3369","Utah",1962,0
+"3370","Utah",1967,1
+"3371","Utah",1968,1
+"3372","Utah",1969,1
+"3373","Utah",1970,1
+"3374","Utah",1971,1
+"3375","Utah",1972,1
+"3376","Utah",1973,1
+"3377","Utah",1974,1
+"3378","Utah",1977,1
+"3379","Utah",1978,1
+"3380","Utah",1979,1
+"3381","Utah",1980,1
+"3382","Utah",1981,1
+"3383","Utah",1982,1
+"3384","Utah",1983,1
+"3385","Utah",1984,1
+"3386","Vermont",1963,1
+"3387","Vermont",1964,1
+"3388","Vermont",1965,1
+"3389","Vermont",1966,1
+"3390","Vermont",1967,1
+"3391","Vermont",1968,1
+"3392","Vermont",1973,1
+"3393","Vermont",1974,1
+"3394","Vermont",1975,1
+"3395","Vermont",1976,1
+"3396","Vermont",1977,0
+"3397","Vermont",1978,0
+"3398","Vermont",1985,1
+"3399","Vermont",1986,1
+"3400","Vermont",1991,0
+"3401","Vermont",1992,1
+"3402","Vermont",1993,1
+"3403","Vermont",1994,1
+"3404","Vermont",1995,1
+"3405","Vermont",1996,1
+"3406","Vermont",2001,1
+"3407","Vermont",2002,1
+"3408","Vermont",2003,0
+"3409","Vermont",2004,0
+"3410","Vermont",2005,0
+"3411","Vermont",2006,0
+"3412","Vermont",2007,0
+"3413","Vermont",2008,0
+"3414","Vermont",2009,0
+"3415","Vermont",2010,0
+"3416","Virginia",1970,0
+"3417","Virginia",1971,0
+"3418","Virginia",1972,0
+"3419","Virginia",1973,0
+"3420","Virginia",1974,0
+"3421","Virginia",1975,0
+"3422","Virginia",1976,0
+"3423","Virginia",1977,0
+"3424","Virginia",1978,0
+"3425","Virginia",1979,0
+"3426","Virginia",1980,0
+"3427","Virginia",1981,0
+"3428","Virginia",1994,0
+"3429","Virginia",1995,0
+"3430","Virginia",1996,0
+"3431","Virginia",1997,0
+"3432","Virginia",1998,0
+"3433","Virginia",1999,0
+"3434","Virginia",2002,1
+"3435","Virginia",2003,1
+"3436","Virginia",2004,1
+"3437","Virginia",2005,1
+"3438","Virginia",2006,1
+"3439","Virginia",2007,1
+"3440","Virginia",2008,1
+"3441","Virginia",2009,1
+"3442","Virginia",2010,1
+"3443","Washington",1941,0
+"3444","Washington",1942,0
+"3445","Washington",1943,0
+"3446","Washington",1944,0
+"3447","Washington",1947,1
+"3448","Washington",1948,1
+"3449","Washington",1949,0
+"3450","Washington",1950,0
+"3451","Washington",1951,0
+"3452","Washington",1952,0
+"3453","Washington",1955,0
+"3454","Washington",1956,0
+"3455","Washington",1965,0
+"3456","Washington",1966,0
+"3457","Washington",1967,0
+"3458","Washington",1968,0
+"3459","Washington",1969,0
+"3460","Washington",1970,0
+"3461","Washington",1971,0
+"3462","Washington",1972,0
+"3463","Washington",1973,0
+"3464","Washington",1974,0
+"3465","Washington",1975,0
+"3466","Washington",1976,0
+"3467","Washington",1979,1
+"3468","Washington",1980,1
+"3469","Washington",1983,0
+"3470","Washington",1984,0
+"3471","Washington",1989,1
+"3472","Washington",1990,1
+"3473","Washington",1991,1
+"3474","Washington",1992,1
+"3475","Washington",1994,1
+"3476","Washington",1995,1
+"3477","Washington",1996,1
+"3478","Washington",1997,1
+"3479","Washington",1998,1
+"3480","Washington",1999,1
+"3481","Washington",2000,1
+"3482","Washington",2001,1
+"3483","Washington",2002,1
+"3484","Washington",2003,1
+"3485","Washington",2004,1
+"3486","Washington",2008,1
+"3487","Washington",2009,1
+"3488","Washington",2010,1
+"3489","West Virginia",1957,0
+"3490","West Virginia",1958,0
+"3491","West Virginia",1959,0
+"3492","West Virginia",1960,0
+"3493","West Virginia",1969,0
+"3494","West Virginia",1970,0
+"3495","West Virginia",1971,0
+"3496","West Virginia",1972,0
+"3497","West Virginia",1973,0
+"3498","West Virginia",1974,0
+"3499","West Virginia",1975,0
+"3500","West Virginia",1976,0
+"3501","West Virginia",1985,0
+"3502","West Virginia",1986,0
+"3503","West Virginia",1987,0
+"3504","West Virginia",1988,0
+"3505","West Virginia",1997,0
+"3506","West Virginia",1998,0
+"3507","West Virginia",1999,0
+"3508","West Virginia",2000,0
+"3509","Wisconsin",1937,0.5
+"3510","Wisconsin",1938,0.5
+"3511","Wisconsin",1939,0
+"3512","Wisconsin",1940,0
+"3513","Wisconsin",1959,1
+"3514","Wisconsin",1960,1
+"3515","Wisconsin",1961,1
+"3516","Wisconsin",1962,1
+"3517","Wisconsin",1963,1
+"3518","Wisconsin",1964,1
+"3519","Wisconsin",1965,0
+"3520","Wisconsin",1966,0
+"3521","Wisconsin",1971,1
+"3522","Wisconsin",1972,1
+"3523","Wisconsin",1973,1
+"3524","Wisconsin",1974,1
+"3525","Wisconsin",1979,0
+"3526","Wisconsin",1980,0
+"3527","Wisconsin",1981,0
+"3528","Wisconsin",1982,0
+"3529","Wisconsin",1987,0
+"3530","Wisconsin",1988,0
+"3531","Wisconsin",1989,0
+"3532","Wisconsin",1990,0
+"3533","Wisconsin",1991,0
+"3534","Wisconsin",1992,0
+"3535","Wisconsin",1993,0
+"3536","Wisconsin",1994,0
+"3537","Wisconsin",1997,0
+"3538","Wisconsin",1998,0
+"3539","Wisconsin",1999,0
+"3540","Wisconsin",2000,0
+"3541","Wisconsin",2001,0
+"3542","Wisconsin",2002,0
+"3543","Wisconsin",2003,1
+"3544","Wisconsin",2004,1
+"3545","Wisconsin",2005,1
+"3546","Wisconsin",2006,1
+"3547","Wisconsin",2007,1
+"3548","Wisconsin",2008,1
+"3549","Wyoming",1941,0
+"3550","Wyoming",1942,0
+"3551","Wyoming",1943,1
+"3552","Wyoming",1944,1
+"3553","Wyoming",1945,1
+"3554","Wyoming",1946,1
+"3555","Wyoming",1947,1
+"3556","Wyoming",1948,1
+"3557","Wyoming",1955,0
+"3558","Wyoming",1956,0
+"3559","Wyoming",1959,1
+"3560","Wyoming",1960,1
+"3561","Wyoming",1961,1
+"3562","Wyoming",1962,1
+"3563","Wyoming",1965,0
+"3564","Wyoming",1966,0
+"3565","Wyoming",1975,1
+"3566","Wyoming",1976,1
+"3567","Wyoming",1977,1
+"3568","Wyoming",1978,1
+"3569","Wyoming",1979,1
+"3570","Wyoming",1980,1
+"3571","Wyoming",1981,1
+"3572","Wyoming",1982,1
+"3573","Wyoming",1983,1
+"3574","Wyoming",1984,1
+"3575","Wyoming",1985,1
+"3576","Wyoming",1986,1
+"3577","Wyoming",1987,1
+"3578","Wyoming",1988,1
+"3579","Wyoming",1989,1
+"3580","Wyoming",1990,1
+"3581","Wyoming",1991,1
+"3582","Wyoming",1992,1
+"3583","Wyoming",1993,1
+"3584","Wyoming",1994,1
+"3585","Wyoming",2003,1
+"3586","Wyoming",2004,1
+"3587","Wyoming",2005,1
+"3588","Wyoming",2006,1
+"3589","Wyoming",2007,1
+"3590","Wyoming",2008,1
+"3591","Wyoming",2009,1
+"3592","Wyoming",2010,1
+"3593","Alabama",1934,NA
+"3594","Alabama",1935,NA
+"3595","Alabama",1936,NA
+"3596","Alabama",1937,1
+"3597","Alabama",1938,1
+"3598","Alabama",2011,0
+"3599","Alabama",2012,NA
+"3600","Alabama",2013,NA
+"3601","Alabama",2014,NA
+"3602","Alabama",2015,NA
+"3603","Alaska",1934,NA
+"3604","Alaska",1935,NA
+"3605","Alaska",1936,NA
+"3606","Alaska",1937,NA
+"3607","Alaska",1938,NA
+"3608","Alaska",1939,NA
+"3609","Alaska",1940,NA
+"3610","Alaska",1941,NA
+"3611","Alaska",1942,NA
+"3612","Alaska",1943,NA
+"3613","Alaska",1944,NA
+"3614","Alaska",1945,NA
+"3615","Alaska",1946,NA
+"3616","Alaska",1947,NA
+"3617","Alaska",1948,NA
+"3618","Alaska",2011,0
+"3619","Alaska",2012,NA
+"3620","Alaska",2013,NA
+"3621","Alaska",2014,NA
+"3622","Alaska",2015,NA
+"3623","Arizona",1934,NA
+"3624","Arizona",1935,NA
+"3625","Arizona",1936,NA
+"3626","Arizona",2011,0
+"3627","Arizona",2012,NA
+"3628","Arizona",2013,NA
+"3629","Arizona",2014,NA
+"3630","Arizona",2015,NA
+"3631","Arkansas",1934,NA
+"3632","Arkansas",1935,NA
+"3633","Arkansas",1936,NA
+"3634","Arkansas",2011,1
+"3635","Arkansas",2012,NA
+"3636","Arkansas",2013,NA
+"3637","Arkansas",2014,NA
+"3638","Arkansas",2015,NA
+"3639","California",1934,NA
+"3640","California",1935,NA
+"3641","California",1936,NA
+"3642","California",2011,1
+"3643","California",2012,NA
+"3644","California",2013,NA
+"3645","California",2014,NA
+"3646","California",2015,NA
+"3647","Colorado",1934,NA
+"3648","Colorado",1935,NA
+"3649","Colorado",1936,NA
+"3650","Colorado",2011,1
+"3651","Colorado",2012,NA
+"3652","Colorado",2013,NA
+"3653","Colorado",2014,NA
+"3654","Colorado",2015,NA
+"3655","Connecticut",1934,NA
+"3656","Connecticut",1935,NA
+"3657","Connecticut",1936,NA
+"3658","Connecticut",2011,1
+"3659","Connecticut",2012,NA
+"3660","Connecticut",2013,NA
+"3661","Connecticut",2014,NA
+"3662","Connecticut",2015,NA
+"3663","Delaware",1934,NA
+"3664","Delaware",1935,NA
+"3665","Delaware",1936,NA
+"3666","Delaware",2011,1
+"3667","Delaware",2012,NA
+"3668","Delaware",2013,NA
+"3669","Delaware",2014,NA
+"3670","Delaware",2015,NA
+"3671","Florida",1934,NA
+"3672","Florida",1935,NA
+"3673","Florida",1936,NA
+"3674","Florida",2011,0
+"3675","Florida",2012,NA
+"3676","Florida",2013,NA
+"3677","Florida",2014,NA
+"3678","Florida",2015,NA
+"3679","Georgia",1934,NA
+"3680","Georgia",1935,NA
+"3681","Georgia",1936,NA
+"3682","Georgia",2011,0
+"3683","Georgia",2012,NA
+"3684","Georgia",2013,NA
+"3685","Georgia",2014,NA
+"3686","Georgia",2015,NA
+"3687","Hawaii",1934,NA
+"3688","Hawaii",1935,NA
+"3689","Hawaii",1936,NA
+"3690","Hawaii",1937,NA
+"3691","Hawaii",1938,NA
+"3692","Hawaii",1939,NA
+"3693","Hawaii",1940,NA
+"3694","Hawaii",1941,NA
+"3695","Hawaii",1942,NA
+"3696","Hawaii",1943,NA
+"3697","Hawaii",1944,NA
+"3698","Hawaii",1945,NA
+"3699","Hawaii",1946,NA
+"3700","Hawaii",1947,NA
+"3701","Hawaii",1948,NA
+"3702","Hawaii",2011,1
+"3703","Hawaii",2012,NA
+"3704","Hawaii",2013,NA
+"3705","Hawaii",2014,NA
+"3706","Hawaii",2015,NA
+"3707","Idaho",1934,NA
+"3708","Idaho",1935,NA
+"3709","Idaho",1936,NA
+"3710","Idaho",2011,0
+"3711","Idaho",2012,NA
+"3712","Idaho",2013,NA
+"3713","Idaho",2014,NA
+"3714","Idaho",2015,NA
+"3715","Illinois",1934,NA
+"3716","Illinois",1935,NA
+"3717","Illinois",1936,NA
+"3718","Illinois",2011,1
+"3719","Illinois",2012,NA
+"3720","Illinois",2013,NA
+"3721","Illinois",2014,NA
+"3722","Illinois",2015,NA
+"3723","Indiana",1934,NA
+"3724","Indiana",1935,NA
+"3725","Indiana",1936,NA
+"3726","Indiana",2011,0
+"3727","Indiana",2012,NA
+"3728","Indiana",2013,NA
+"3729","Indiana",2014,NA
+"3730","Indiana",2015,NA
+"3731","Iowa",1934,NA
+"3732","Iowa",1935,NA
+"3733","Iowa",1936,NA
+"3734","Iowa",2011,0
+"3735","Iowa",2012,NA
+"3736","Iowa",2013,NA
+"3737","Iowa",2014,NA
+"3738","Iowa",2015,NA
+"3739","Kansas",1934,NA
+"3740","Kansas",1935,NA
+"3741","Kansas",1936,NA
+"3742","Kansas",2011,0
+"3743","Kansas",2012,NA
+"3744","Kansas",2013,NA
+"3745","Kansas",2014,NA
+"3746","Kansas",2015,NA
+"3747","Kentucky",1934,NA
+"3748","Kentucky",1935,NA
+"3749","Kentucky",2011,1
+"3750","Kentucky",2012,NA
+"3751","Kentucky",2013,NA
+"3752","Kentucky",2014,NA
+"3753","Kentucky",2015,NA
+"3754","Louisiana",1934,NA
+"3755","Louisiana",1935,NA
+"3756","Louisiana",2011,0
+"3757","Louisiana",2012,NA
+"3758","Louisiana",2013,NA
+"3759","Louisiana",2014,NA
+"3760","Louisiana",2015,NA
+"3761","Maine",1934,NA
+"3762","Maine",1935,NA
+"3763","Maine",1936,NA
+"3764","Maine",2011,0
+"3765","Maine",2012,NA
+"3766","Maine",2013,NA
+"3767","Maine",2014,NA
+"3768","Maine",2015,NA
+"3769","Maryland",1934,NA
+"3770","Maryland",1935,NA
+"3771","Maryland",1936,NA
+"3772","Maryland",1937,0
+"3773","Maryland",1938,0
+"3774","Maryland",2011,1
+"3775","Maryland",2012,NA
+"3776","Maryland",2013,NA
+"3777","Maryland",2014,NA
+"3778","Maryland",2015,NA
+"3779","Massachusetts",1934,NA
+"3780","Massachusetts",1935,NA
+"3781","Massachusetts",1936,NA
+"3782","Massachusetts",2011,1
+"3783","Massachusetts",2012,NA
+"3784","Massachusetts",2013,NA
+"3785","Massachusetts",2014,NA
+"3786","Massachusetts",2015,NA
+"3787","Michigan",1934,NA
+"3788","Michigan",1935,NA
+"3789","Michigan",1936,NA
+"3790","Michigan",2011,0
+"3791","Michigan",2012,NA
+"3792","Michigan",2013,NA
+"3793","Michigan",2014,NA
+"3794","Michigan",2015,NA
+"3795","Minnesota",1934,NA
+"3796","Minnesota",1935,NA
+"3797","Minnesota",1936,NA
+"3798","Minnesota",1939,0
+"3799","Minnesota",1940,0
+"3800","Minnesota",1941,0
+"3801","Minnesota",1942,0
+"3802","Minnesota",1943,0
+"3803","Minnesota",1944,0
+"3804","Minnesota",1945,0
+"3805","Minnesota",1946,0
+"3806","Minnesota",1947,0
+"3807","Minnesota",1948,0
+"3808","Minnesota",1949,0
+"3809","Minnesota",1950,0
+"3810","Minnesota",2011,1
+"3811","Minnesota",2012,NA
+"3812","Minnesota",2013,NA
+"3813","Minnesota",2014,NA
+"3814","Minnesota",2015,NA
+"3815","Mississippi",1934,NA
+"3816","Mississippi",1935,NA
+"3817","Mississippi",2011,0
+"3818","Mississippi",2012,NA
+"3819","Mississippi",2013,NA
+"3820","Mississippi",2014,NA
+"3821","Mississippi",2015,NA
+"3822","Missouri",1934,NA
+"3823","Missouri",1935,NA
+"3824","Missouri",1936,NA
+"3825","Missouri",2011,1
+"3826","Missouri",2012,NA
+"3827","Missouri",2013,NA
+"3828","Missouri",2014,NA
+"3829","Missouri",2015,NA
+"3830","Montana",1934,NA
+"3831","Montana",1935,NA
+"3832","Montana",1936,NA
+"3833","Montana",2011,1
+"3834","Montana",2012,NA
+"3835","Montana",2013,NA
+"3836","Montana",2014,NA
+"3837","Montana",2015,NA
+"3838","Nebraska",1934,NA
+"3839","Nebraska",1935,NA
+"3840","Nebraska",1936,NA
+"3841","Nebraska",1937,1
+"3842","Nebraska",1938,1
+"3843","Nebraska",1939,1
+"3844","Nebraska",1940,1
+"3845","Nebraska",1941,0
+"3846","Nebraska",1942,0
+"3847","Nebraska",1943,0
+"3848","Nebraska",1944,0
+"3849","Nebraska",1945,0
+"3850","Nebraska",1946,0
+"3851","Nebraska",1947,0
+"3852","Nebraska",1948,0
+"3853","Nebraska",1949,0
+"3854","Nebraska",1950,0
+"3855","Nebraska",1951,0
+"3856","Nebraska",1952,0
+"3857","Nebraska",1953,0
+"3858","Nebraska",1954,0
+"3859","Nebraska",1955,0
+"3860","Nebraska",1956,0
+"3861","Nebraska",1957,0
+"3862","Nebraska",1958,0
+"3863","Nebraska",1959,1
+"3864","Nebraska",1960,0
+"3865","Nebraska",1961,1
+"3866","Nebraska",1962,1
+"3867","Nebraska",1963,1
+"3868","Nebraska",1964,1
+"3869","Nebraska",1965,1
+"3870","Nebraska",1966,1
+"3871","Nebraska",1967,0
+"3872","Nebraska",1968,0
+"3873","Nebraska",1969,0
+"3874","Nebraska",1970,0
+"3875","Nebraska",1971,1
+"3876","Nebraska",1972,1
+"3877","Nebraska",1973,1
+"3878","Nebraska",1974,1
+"3879","Nebraska",1975,1
+"3880","Nebraska",1976,1
+"3881","Nebraska",1977,1
+"3882","Nebraska",1978,1
+"3883","Nebraska",1979,0
+"3884","Nebraska",1980,0
+"3885","Nebraska",1981,0
+"3886","Nebraska",1982,0
+"3887","Nebraska",1983,1
+"3888","Nebraska",1984,1
+"3889","Nebraska",1985,1
+"3890","Nebraska",1986,1
+"3891","Nebraska",1987,0
+"3892","Nebraska",1988,0
+"3893","Nebraska",1989,0
+"3894","Nebraska",1990,0
+"3895","Nebraska",1991,1
+"3896","Nebraska",1992,1
+"3897","Nebraska",1993,1
+"3898","Nebraska",1994,1
+"3899","Nebraska",1995,1
+"3900","Nebraska",1996,1
+"3901","Nebraska",1997,1
+"3902","Nebraska",1998,1
+"3903","Nebraska",1999,0
+"3904","Nebraska",2000,0
+"3905","Nebraska",2001,0
+"3906","Nebraska",2002,0
+"3907","Nebraska",2003,0
+"3908","Nebraska",2004,0
+"3909","Nebraska",2005,0
+"3910","Nebraska",2006,0
+"3911","Nebraska",2007,0
+"3912","Nebraska",2008,0
+"3913","Nebraska",2009,0
+"3914","Nebraska",2010,0
+"3915","Nebraska",2011,0
+"3916","Nebraska",2012,NA
+"3917","Nebraska",2013,NA
+"3918","Nebraska",2014,NA
+"3919","Nebraska",2015,NA
+"3920","Nevada",1934,NA
+"3921","Nevada",1935,NA
+"3922","Nevada",1936,NA
+"3923","Nevada",2011,0
+"3924","Nevada",2012,NA
+"3925","Nevada",2013,NA
+"3926","Nevada",2014,NA
+"3927","Nevada",2015,NA
+"3928","New Hampshire",1934,NA
+"3929","New Hampshire",1935,NA
+"3930","New Hampshire",1936,NA
+"3931","New Hampshire",2011,1
+"3932","New Hampshire",2012,NA
+"3933","New Hampshire",2013,NA
+"3934","New Hampshire",2014,NA
+"3935","New Hampshire",2015,NA
+"3936","New Jersey",1934,NA
+"3937","New Jersey",1935,NA
+"3938","New Jersey",2011,0
+"3939","New Jersey",2012,NA
+"3940","New Jersey",2013,NA
+"3941","New Jersey",2014,NA
+"3942","New Jersey",2015,NA
+"3943","New Mexico",1934,NA
+"3944","New Mexico",1935,NA
+"3945","New Mexico",1936,NA
+"3946","New Mexico",2011,0
+"3947","New Mexico",2012,NA
+"3948","New Mexico",2013,NA
+"3949","New Mexico",2014,NA
+"3950","New Mexico",2015,NA
+"3951","New York",1934,NA
+"3952","New York",1935,NA
+"3953","New York",1936,NA
+"3954","New York",2011,1
+"3955","New York",2012,NA
+"3956","New York",2013,NA
+"3957","New York",2014,NA
+"3958","New York",2015,NA
+"3959","North Carolina",1934,NA
+"3960","North Carolina",1935,NA
+"3961","North Carolina",1936,NA
+"3962","North Carolina",2011,1
+"3963","North Carolina",2012,NA
+"3964","North Carolina",2013,NA
+"3965","North Carolina",2014,NA
+"3966","North Carolina",2015,NA
+"3967","North Dakota",1934,NA
+"3968","North Dakota",1935,NA
+"3969","North Dakota",1936,NA
+"3970","North Dakota",2011,0
+"3971","North Dakota",2012,NA
+"3972","North Dakota",2013,NA
+"3973","North Dakota",2014,NA
+"3974","North Dakota",2015,NA
+"3975","Ohio",1934,NA
+"3976","Ohio",1935,NA
+"3977","Ohio",1936,NA
+"3978","Ohio",2011,0
+"3979","Ohio",2012,NA
+"3980","Ohio",2013,NA
+"3981","Ohio",2014,NA
+"3982","Ohio",2015,NA
+"3983","Oklahoma",1934,NA
+"3984","Oklahoma",1935,NA
+"3985","Oklahoma",1936,NA
+"3986","Oklahoma",2011,0
+"3987","Oklahoma",2012,NA
+"3988","Oklahoma",2013,NA
+"3989","Oklahoma",2014,NA
+"3990","Oklahoma",2015,NA
+"3991","Oregon",1934,NA
+"3992","Oregon",1935,NA
+"3993","Oregon",1936,NA
+"3994","Oregon",2011,1
+"3995","Oregon",2012,NA
+"3996","Oregon",2013,NA
+"3997","Oregon",2014,NA
+"3998","Oregon",2015,NA
+"3999","Pennsylvania",1934,NA
+"4000","Pennsylvania",1935,NA
+"4001","Pennsylvania",1936,NA
+"4002","Pennsylvania",2011,0
+"4003","Pennsylvania",2012,NA
+"4004","Pennsylvania",2013,NA
+"4005","Pennsylvania",2014,NA
+"4006","Pennsylvania",2015,NA
+"4007","Rhode Island",1934,NA
+"4008","Rhode Island",1935,NA
+"4009","Rhode Island",1936,NA
+"4010","Rhode Island",2012,NA
+"4011","Rhode Island",2013,NA
+"4012","Rhode Island",2014,NA
+"4013","Rhode Island",2015,NA
+"4014","South Carolina",1934,NA
+"4015","South Carolina",1935,NA
+"4016","South Carolina",1936,NA
+"4017","South Carolina",2011,0
+"4018","South Carolina",2012,NA
+"4019","South Carolina",2013,NA
+"4020","South Carolina",2014,NA
+"4021","South Carolina",2015,NA
+"4022","South Dakota",1934,NA
+"4023","South Dakota",1935,NA
+"4024","South Dakota",1936,NA
+"4025","South Dakota",2011,0
+"4026","South Dakota",2012,NA
+"4027","South Dakota",2013,NA
+"4028","South Dakota",2014,NA
+"4029","South Dakota",2015,NA
+"4030","Tennessee",1934,NA
+"4031","Tennessee",1935,NA
+"4032","Tennessee",1936,NA
+"4033","Tennessee",2011,0
+"4034","Tennessee",2012,NA
+"4035","Tennessee",2013,NA
+"4036","Tennessee",2014,NA
+"4037","Tennessee",2015,NA
+"4038","Texas",1934,NA
+"4039","Texas",1935,NA
+"4040","Texas",1936,NA
+"4041","Texas",2011,0
+"4042","Texas",2012,NA
+"4043","Texas",2013,NA
+"4044","Texas",2014,NA
+"4045","Texas",2015,NA
+"4046","Utah",1934,NA
+"4047","Utah",1935,NA
+"4048","Utah",1936,NA
+"4049","Utah",2011,0
+"4050","Utah",2012,NA
+"4051","Utah",2013,NA
+"4052","Utah",2014,NA
+"4053","Utah",2015,NA
+"4054","Vermont",1934,NA
+"4055","Vermont",1935,NA
+"4056","Vermont",1936,NA
+"4057","Vermont",2011,1
+"4058","Vermont",2012,NA
+"4059","Vermont",2013,NA
+"4060","Vermont",2014,NA
+"4061","Vermont",2015,NA
+"4062","Virginia",1934,NA
+"4063","Virginia",1935,NA
+"4064","Virginia",2011,0
+"4065","Virginia",2012,NA
+"4066","Virginia",2013,NA
+"4067","Virginia",2014,NA
+"4068","Virginia",2015,NA
+"4069","Washington",1934,NA
+"4070","Washington",1935,NA
+"4071","Washington",1936,NA
+"4072","Washington",2011,1
+"4073","Washington",2012,NA
+"4074","Washington",2013,NA
+"4075","Washington",2014,NA
+"4076","Washington",2015,NA
+"4077","West Virginia",1934,NA
+"4078","West Virginia",1935,NA
+"4079","West Virginia",1936,NA
+"4080","West Virginia",2011,1
+"4081","West Virginia",2012,NA
+"4082","West Virginia",2013,NA
+"4083","West Virginia",2014,NA
+"4084","West Virginia",2015,NA
+"4085","Wisconsin",1934,NA
+"4086","Wisconsin",1935,NA
+"4087","Wisconsin",1936,NA
+"4088","Wisconsin",2011,0
+"4089","Wisconsin",2012,NA
+"4090","Wisconsin",2013,NA
+"4091","Wisconsin",2014,NA
+"4092","Wisconsin",2015,NA
+"4093","Wyoming",1934,NA
+"4094","Wyoming",1935,NA
+"4095","Wyoming",1936,NA
+"4096","Wyoming",2011,0
+"4097","Wyoming",2012,NA
+"4098","Wyoming",2013,NA
+"4099","Wyoming",2014,NA
+"4100","Wyoming",2015,NA

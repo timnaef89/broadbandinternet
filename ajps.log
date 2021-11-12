@@ -1,0 +1,998 @@
+
+> ##--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---++
+> ##           							
+> ##	Generate Map of ROW Laws by State
+> ##
+> ##	Yphtach Lelkes						
+> ## .... [TRUNCATED] 
+
+> pacman::p_load(maps,ggplot2,grid,scales,Rcpp)
+Installing package into ‘C:/Users/naeft/OneDrive - chmedia/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+Warnung: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6:
+  kann URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6/PACKAGES' nicht öffnen
+
+  There is a binary version available but the source version is later:
+     binary source needs_compilation
+maps  3.3.0  3.4.0              TRUE
+
+  Binaries will be installed
+versuche URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/maps_3.3.0.zip'
+Content type 'application/zip' length 3696139 bytes (3.5 MB)
+downloaded 3.5 MB
+
+package ‘maps’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\naeft\AppData\Local\Temp\RtmpwRGAxE\downloaded_packages
+
+maps installed
+
+> devtools::install_github('ggthemr', 'cttobin')
+Fehler in loadNamespace(name) : es gibt kein Paket namens ‘devtools’
+
+> ##--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---++
+> ##             						
+> ##	Graph plotting # of subscribers by number of providers  	
+> ##  Figu .... [TRUNCATED] 
+
+> pacman::p_load(ggplot2, ggthemr, scales)
+Installing package into ‘C:/Users/naeft/OneDrive - chmedia/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+Warnung: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6:
+  kann URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6/PACKAGES' nicht öffnen
+
+> ggthemr("fresh")
+Fehler in ggthemr("fresh") : konnte Funktion "ggthemr" nicht finden
+Zusätzlich: Warnmeldungen:
+1: package ‘ggthemr’ is not available (for R version 3.6.3) 
+2: 'BiocManager' not available.  Could not check Bioconductor.
+
+Please use `install.packages('BiocManager')` and then retry. 
+3: In p_install(package, character.only = TRUE, ...) : 
+4: In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  es gibt kein Paket namens ‘ggthemr’
+5: In pacman::p_load(ggplot2, ggthemr, scales) : Failed to install/load:
+ggthemr
+
+>   rm(list=c(ls()))
+
+>   ##--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---++
+>   ##           							
+>   ##	Table 1:  First-Stage, Reduced Form, and IV Estimates Predictin .... [TRUNCATED] 
+
+>   pacman::p_load(AER, ivpack,texreg)
+Installing package into ‘C:/Users/naeft/OneDrive - chmedia/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+Warnung: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6:
+  kann URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6/PACKAGES' nicht öffnen
+versuche URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/ivpack_1.2.zip'
+Content type 'application/zip' length 123264 bytes (120 KB)
+downloaded 120 KB
+
+package ‘ivpack’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\naeft\AppData\Local\Temp\RtmpwRGAxE\downloaded_packages
+
+ivpack installed
+Installing package into ‘C:/Users/naeft/OneDrive - chmedia/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+Warnung: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6:
+  kann URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6/PACKAGES' nicht öffnen
+versuche URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/texreg_1.37.5.zip'
+Content type 'application/zip' length 1423257 bytes (1.4 MB)
+downloaded 1.4 MB
+
+package ‘texreg’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\naeft\AppData\Local\Temp\RtmpwRGAxE\downloaded_packages
+
+texreg installed
+
+>   ## rescale items to lie between 0 and 1
+>   zero1 <- function(x, minx=NA, maxx=NA){
++     res <- NA
++     if(is.na(minx)) res <- (x - min(x,na.rm= .... [TRUNCATED] 
+
+>   load("mergeddataset.RData")
+
+>   load("mergedcounty.RData")
+
+>   ## Dataset without Demographics
+>   countyproviders <- countyproviders[,1:16]
+
+>     nodemos <- na.omit(merged[,c(1:16,21:22)])
+
+>   ## First Stage Model
+>   firstage <- lm(log(providers)~as.factor(year)+region+percent_black+percent_white+percent_male+lowed+unemploymentrate+dens .... [TRUNCATED] 
+
+>   firststageses <- cluster.robust.se(firstage,droplevels(as.factor(na.omit(countyproviders)$state)))
+[1] "Cluster Robust Standard Errors"
+
+>   firststageses[nrow(firststageses),3]^2
+[1] 8.439915
+
+>   ## Reduced Form Model
+>   reducedform <- lm(zero1(infeels-outfeels)~as.factor(year)+region+percent_black+percent_white+percent_male+lowed+unemploy .... [TRUNCATED] 
+
+>   reducedformses <- cluster.robust.se(reducedform,droplevels(as.factor(na.omit(nodemos)$state)))
+[1] "Cluster Robust Standard Errors"
+
+>     ## IV Model
+>     ivests <- ivreg(zero1(infeels-outfeels)~as.factor(year)+region+percent_black+percent_white+percent_male+lowed+unemploymentrate .... [TRUNCATED] 
+
+>     ivestsses <-cluster.robust.se(ivests,droplevels(as.factor(na.omit(nodemos)$state)))
+[1] "Cluster Robust Standard Errors"
+
+> texreg(l=list(firstage,reducedform,ivests),,override.se =list(firststageses[,2],reducedformses[,2],ivestsses[,2]),override.pval  =list(firststageses .... [TRUNCATED] 
+The table was written to the file 'table1.tex'.
+
+
+> rm(list=c(ls()))
+
+> ##--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---++
+> ##           							
+> ##	Table 2  	
+> ##	for Hostile Audience, AJPS
+> ##  Yphtach Lelkes						 .... [TRUNCATED] 
+
+> pacman::p_load(AER, ivpack,texreg)
+
+> ## rescale items to lie between 0 and 1
+> zero1 <- function(x, minx=NA, maxx=NA){
++   res <- NA
++   if(is.na(minx)) res <- (x - min(x,na.rm=T))/(max .... [TRUNCATED] 
+
+> load("mergeddataset.RData")
+
+> nodemos <- merged[,c(1:16,21:22,28)]
+
+> yearhet <- ivreg(zero1(infeels-outfeels)~as.factor(year)+region+percent_black+percent_white+percent_male+lowed+unemploymentrate+density+log(HHINC)+l .... [TRUNCATED] 
+
+> yearhetses <-  cluster.robust.se(yearhet,droplevels(as.factor(na.omit(nodemos[,-19])$state)))
+[1] "Cluster Robust Standard Errors"
+
+> interesthet <- ivreg(zero1(infeels-outfeels)~as.factor(year)+region+percent_black+percent_white+percent_male+lowed+unemploymentrate+density+log(HHIN .... [TRUNCATED] 
+
+> interesthetses <-  cluster.robust.se(interesthet,droplevels(as.factor(na.omit(nodemos)$state)))
+[1] "Cluster Robust Standard Errors"
+
+> texreg(l=list(yearhet,interesthet),override.se =list(yearhetses[,2],interesthetses[,2]),override.pval  =list(yearhetses[,4],interesthetses[,4]),digi .... [TRUNCATED] 
+The table was written to the file 'table2.tex'.
+
+
+> rm(list=c(ls()))
+
+> ##--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---++
+> ##             						
+> ##	Figure 3
+> ##	for Hostile Audience, AJPS
+> ##  Gaurav Sood						
+> # .... [TRUNCATED] 
+
+> if (!require("pacman")) install.packages("pacman")
+
+> pacman::p_load( plyr, stargazer,cem,MatchIt,effects,ggthemr,gridExtra)
+Installing package into ‘C:/Users/naeft/OneDrive - chmedia/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘Rcpp’, ‘RcppProgress’, ‘MatchIt’, ‘combinat’, ‘randomForest’
+
+Warnung: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6:
+  kann URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6/PACKAGES' nicht öffnen
+
+  There are binary versions available but the source versions are later:
+        binary source needs_compilation
+Rcpp     1.0.6  1.0.7              TRUE
+MatchIt  4.1.0  4.3.1              TRUE
+cem     1.1.27 1.1.29             FALSE
+
+  Binaries will be installed
+Warnung: package ‘Rcpp’ is in use and will not be installed
+versuche URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/RcppProgress_0.4.2.zip'
+Content type 'application/zip' length 33950 bytes (33 KB)
+downloaded 33 KB
+
+versuche URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/MatchIt_4.1.0.zip'
+Content type 'application/zip' length 2075006 bytes (2.0 MB)
+downloaded 2.0 MB
+
+versuche URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/combinat_0.0-8.zip'
+Content type 'application/zip' length 43075 bytes (42 KB)
+downloaded 42 KB
+
+versuche URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/randomForest_4.6-14.zip'
+Content type 'application/zip' length 250094 bytes (244 KB)
+downloaded 244 KB
+
+package ‘RcppProgress’ successfully unpacked and MD5 sums checked
+package ‘MatchIt’ successfully unpacked and MD5 sums checked
+package ‘combinat’ successfully unpacked and MD5 sums checked
+package ‘randomForest’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\naeft\AppData\Local\Temp\RtmpwRGAxE\downloaded_packages
+installing the source package ‘cem’
+
+versuche URL 'https://cran.rstudio.com/src/contrib/cem_1.1.29.tar.gz'
+Content type 'application/x-gzip' length 670087 bytes (654 KB)
+downloaded 654 KB
+
+
+The downloaded source packages are in
+	‘C:\Users\naeft\AppData\Local\Temp\RtmpwRGAxE\downloaded_packages’
+
+cem installed
+Installing package into ‘C:/Users/naeft/OneDrive - chmedia/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘estimability’, ‘insight’
+
+Warnung: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6:
+  kann URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6/PACKAGES' nicht öffnen
+
+  There is a binary version available but the source version is later:
+        binary source needs_compilation
+insight 0.14.0 0.14.5             FALSE
+
+versuche URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/estimability_1.3.zip'
+Content type 'application/zip' length 38977 bytes (38 KB)
+downloaded 38 KB
+
+versuche URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/effects_4.2-0.zip'
+Content type 'application/zip' length 2454399 bytes (2.3 MB)
+downloaded 2.3 MB
+
+package ‘estimability’ successfully unpacked and MD5 sums checked
+package ‘effects’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\naeft\AppData\Local\Temp\RtmpwRGAxE\downloaded_packages
+installing the source package ‘insight’
+
+versuche URL 'https://cran.rstudio.com/src/contrib/insight_0.14.5.tar.gz'
+Content type 'application/x-gzip' length 761601 bytes (743 KB)
+downloaded 743 KB
+
+
+The downloaded source packages are in
+	‘C:\Users\naeft\AppData\Local\Temp\RtmpwRGAxE\downloaded_packages’
+
+effects installed
+Installing package into ‘C:/Users/naeft/OneDrive - chmedia/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+Warnung: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6:
+  kann URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6/PACKAGES' nicht öffnen
+Installing package into ‘C:/Users/naeft/OneDrive - chmedia/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+Warnung: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6:
+  kann URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6/PACKAGES' nicht öffnen
+versuche URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/gridExtra_2.3.zip'
+Content type 'application/zip' length 1109442 bytes (1.1 MB)
+downloaded 1.1 MB
+
+package ‘gridExtra’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\naeft\AppData\Local\Temp\RtmpwRGAxE\downloaded_packages
+
+gridExtra installed
+
+> # ggplot
+> partmedia 		<- lm(sum ~speed + household_size + (hoh_oldest_age) + (household_income) + (children) + (racial_background) + (country_of_or .... [TRUNCATED] 
+
+> c1 <- effect(partmedia,term="speed")
+
+> forggplot <- data.frame(y=c1$fit,speed=c1$x, upper=(c1$upper),lower=(c1$lower),media="Selecting \n Partisan Media")
+
+> ggthemr("fresh")
+Fehler in ggthemr("fresh") : konnte Funktion "ggthemr" nicht finden
+Zusätzlich: Warnmeldungen:
+1: package ‘ggthemr’ is not available (for R version 3.6.3) 
+2: 'BiocManager' not available.  Could not check Bioconductor.
+
+Please use `install.packages('BiocManager')` and then retry. 
+3: In p_install(package, character.only = TRUE, ...) : 
+4: In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  es gibt kein Paket namens ‘ggthemr’
+5: In pacman::p_load(plyr, stargazer, cem, MatchIt, effects, ggthemr,  :
+  Failed to install/load:
+ggthemr
+
+> rm(list = c(ls()))
+
+> ##--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---++
+> ##     										
+> ##	NES 2012 Broadband vs. Dial-up Partisan Exposure   	
+> ##	Yph Lelkes				 .... [TRUNCATED] 
+
+> pacman::p_load(gtools, Hmisc,plyr, stargazer,cem,MatchIt,effects,ggthemr,gridExtra,xtable)
+Installing package into ‘C:/Users/naeft/OneDrive - chmedia/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+Warnung: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6:
+  kann URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6/PACKAGES' nicht öffnen
+
+  There is a binary version available but the source version is later:
+       binary source needs_compilation
+gtools  3.8.2  3.9.2              TRUE
+
+  Binaries will be installed
+versuche URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/gtools_3.8.2.zip'
+Content type 'application/zip' length 336453 bytes (328 KB)
+downloaded 328 KB
+
+package ‘gtools’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\naeft\AppData\Local\Temp\RtmpwRGAxE\downloaded_packages
+
+gtools installed
+Installing package into ‘C:/Users/naeft/OneDrive - chmedia/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘png’, ‘jpeg’, ‘checkmate’, ‘htmlwidgets’, ‘latticeExtra’, ‘htmlTable’, ‘viridis’
+
+Warnung: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6:
+  kann URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6/PACKAGES' nicht öffnen
+
+  There are binary versions available but the source versions are later:
+             binary source needs_compilation
+jpeg        0.1-8.1  0.1-9              TRUE
+htmlwidgets   1.5.3  1.5.4             FALSE
+htmlTable     2.1.0  2.3.0             FALSE
+viridis       0.6.1  0.6.2             FALSE
+Hmisc         4.5-0  4.6-0              TRUE
+
+  Binaries will be installed
+versuche URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/png_0.1-7.zip'
+Content type 'application/zip' length 292789 bytes (285 KB)
+downloaded 285 KB
+
+versuche URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/jpeg_0.1-8.1.zip'
+Content type 'application/zip' length 230663 bytes (225 KB)
+downloaded 225 KB
+
+versuche URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/checkmate_2.0.0.zip'
+Content type 'application/zip' length 704540 bytes (688 KB)
+downloaded 688 KB
+
+versuche URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/latticeExtra_0.6-29.zip'
+Content type 'application/zip' length 2202533 bytes (2.1 MB)
+downloaded 2.1 MB
+
+versuche URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/Hmisc_4.5-0.zip'
+Content type 'application/zip' length 3260035 bytes (3.1 MB)
+downloaded 3.1 MB
+
+package ‘png’ successfully unpacked and MD5 sums checked
+package ‘jpeg’ successfully unpacked and MD5 sums checked
+package ‘checkmate’ successfully unpacked and MD5 sums checked
+package ‘latticeExtra’ successfully unpacked and MD5 sums checked
+package ‘Hmisc’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\naeft\AppData\Local\Temp\RtmpwRGAxE\downloaded_packages
+installing the source packages ‘htmlwidgets’, ‘htmlTable’, ‘viridis’
+
+versuche URL 'https://cran.rstudio.com/src/contrib/htmlwidgets_1.5.4.tar.gz'
+Content type 'application/x-gzip' length 956850 bytes (934 KB)
+downloaded 934 KB
+
+versuche URL 'https://cran.rstudio.com/src/contrib/htmlTable_2.3.0.tar.gz'
+Content type 'application/x-gzip' length 208455 bytes (203 KB)
+downloaded 203 KB
+
+versuche URL 'https://cran.rstudio.com/src/contrib/viridis_0.6.2.tar.gz'
+Content type 'application/x-gzip' length 3031731 bytes (2.9 MB)
+downloaded 2.9 MB
+
+
+The downloaded source packages are in
+	‘C:\Users\naeft\AppData\Local\Temp\RtmpwRGAxE\downloaded_packages’
+
+Hmisc installed
+Installing package into ‘C:/Users/naeft/OneDrive - chmedia/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+Warnung: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6:
+  kann URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6/PACKAGES' nicht öffnen
+Installing package into ‘C:/Users/naeft/OneDrive - chmedia/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+Warnung: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6:
+  kann URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/3.6/PACKAGES' nicht öffnen
+versuche URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/xtable_1.8-4.zip'
+Content type 'application/zip' length 706643 bytes (690 KB)
+downloaded 690 KB
+
+package ‘xtable’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\naeft\AppData\Local\Temp\RtmpwRGAxE\downloaded_packages
+
+xtable installed
+
+> load("CopyOfanes_timeseries_2012.sav")
+
+> # Prepping for Matching
+> formatch$interest_following <- as.numeric(droplevels(formatch$interest_following))
+
+> formatch$income <- quantcut(as.numeric(formatch$inc_incgroup_pre),q = seq(from=0,to=1,by=.25))
+
+> formatch$race <- (droplevels(formatch$dem_raceeth_x))
+
+> formatch$age <- quantcut(as.numeric(formatch$dem_age_r_x),q = seq(from=0,to=1,by=.25))
+
+> # Matching using CEM
+> matched <- matchit(as.numeric(broadband)-1~interest_following+income+race+educ+age+gender_respondent_x,data = formatch,method .... [TRUNCATED] 
+
+> # Matched dataset
+> matched12 <- match.data(matched)
+
+> summary(matched)
+
+Call:
+matchit(formula = as.numeric(broadband) - 1 ~ interest_following + 
+    income + race + educ + age + gender_respondent_x, data = formatch, 
+    method = "cem")
+
+Summary of Balance for All Data:
+                             Means Treated Means Control Std. Mean Diff. Var. Ratio
+interest_following                  1.6794        1.6842         -0.0072      0.888
+income[4,12]                        0.6176        0.2531          0.7501          .
+income(12,18]                       0.2500        0.2543         -0.0099          .
+income(18,24]                       0.0912        0.2350         -0.4997          .
+income(24,31]                       0.0412        0.2576         -1.0891          .
+race1. white non-hispanic           0.5941        0.6412         -0.0959          .
+race2. black non-hispanic           0.1618        0.1472          0.0395          .
+race3. hispanic                     0.1912        0.1536          0.0957          .
+race4. other non-hispanic           0.0529        0.0580         -0.0226          .
+educCollege                         0.1382        0.2172         -0.2287          .
+educHS or Less                      0.4706        0.3012          0.3393          .
+educMore than College               0.0559        0.1418         -0.3741          .
+educSome College                    0.3353        0.3398         -0.0094          .
+age[17,36]                          0.0706        0.2705         -0.7804          .
+age(36,51]                          0.2176        0.2611         -0.1053          .
+age(51,62]                          0.3206        0.2411          0.1702          .
+age(62,90]                          0.3912        0.2273          0.3358          .
+gender_respondent_x1. male          0.4706        0.4999         -0.0587          .
+gender_respondent_x2. female        0.5294        0.5001          0.0587          .
+                             eCDF Mean eCDF Max
+interest_following              0.0177   0.0290
+income[4,12]                    0.3645   0.3645
+income(12,18]                   0.0043   0.0043
+income(18,24]                   0.1439   0.1439
+income(24,31]                   0.2164   0.2164
+race1. white non-hispanic       0.0471   0.0471
+race2. black non-hispanic       0.0145   0.0145
+race3. hispanic                 0.0376   0.0376
+race4. other non-hispanic       0.0051   0.0051
+educCollege                     0.0790   0.0790
+educHS or Less                  0.1693   0.1693
+educMore than College           0.0859   0.0859
+educSome College                0.0045   0.0045
+age[17,36]                      0.1999   0.1999
+age(36,51]                      0.0434   0.0434
+age(51,62]                      0.0795   0.0795
+age(62,90]                      0.1639   0.1639
+gender_respondent_x1. male      0.0293   0.0293
+gender_respondent_x2. female    0.0293   0.0293
+
+
+Summary of Balance for Matched Data:
+                             Means Treated Means Control Std. Mean Diff. Var. Ratio
+interest_following                  1.6358        1.6358              -0     1.0014
+income[4,12]                        0.6294        0.6294               0          .
+income(12,18]                       0.2460        0.2460               0          .
+income(18,24]                       0.0927        0.0927               0          .
+income(24,31]                       0.0319        0.0319               0          .
+race1. white non-hispanic           0.6294        0.6294               0          .
+race2. black non-hispanic           0.1565        0.1565               0          .
+race3. hispanic                     0.1757        0.1757               0          .
+race4. other non-hispanic           0.0383        0.0383               0          .
+educCollege                         0.1182        0.1182              -0          .
+educHS or Less                      0.4824        0.4824               0          .
+educMore than College               0.0447        0.0447               0          .
+educSome College                    0.3546        0.3546               0          .
+age[17,36]                          0.0703        0.0703               0          .
+age(36,51]                          0.2204        0.2204               0          .
+age(51,62]                          0.3323        0.3323              -0          .
+age(62,90]                          0.3770        0.3770               0          .
+gender_respondent_x1. male          0.4665        0.4665               0          .
+gender_respondent_x2. female        0.5335        0.5335               0          .
+                             eCDF Mean eCDF Max Std. Pair Dist.
+interest_following                   0        0               0
+income[4,12]                         0        0               0
+income(12,18]                        0        0               0
+income(18,24]                        0        0               0
+income(24,31]                        0        0               0
+race1. white non-hispanic            0        0               0
+race2. black non-hispanic            0        0               0
+race3. hispanic                      0        0               0
+race4. other non-hispanic            0        0               0
+educCollege                          0        0               0
+educHS or Less                       0        0               0
+educMore than College                0        0               0
+educSome College                     0        0               0
+age[17,36]                           0        0               0
+age(36,51]                           0        0               0
+age(51,62]                           0        0               0
+age(62,90]                           0        0               0
+gender_respondent_x1. male           0        0               0
+gender_respondent_x2. female         0        0               0
+
+Percent Balance Improvement:
+                             Std. Mean Diff. Var. Ratio eCDF Mean eCDF Max
+interest_following                       100       98.8       100      100
+income[4,12]                             100          .       100      100
+income(12,18]                            100          .       100      100
+income(18,24]                            100          .       100      100
+income(24,31]                            100          .       100      100
+race1. white non-hispanic                100          .       100      100
+race2. black non-hispanic                100          .       100      100
+race3. hispanic                          100          .       100      100
+race4. other non-hispanic                100          .       100      100
+educCollege                              100          .       100      100
+educHS or Less                           100          .       100      100
+educMore than College                    100          .       100      100
+educSome College                         100          .       100      100
+age[17,36]                               100          .       100      100
+age(36,51]                               100          .       100      100
+age(51,62]                               100          .       100      100
+age(62,90]                               100          .       100      100
+gender_respondent_x1. male               100          .       100      100
+gender_respondent_x2. female             100          .       100      100
+
+Sample Sizes:
+              Control Treated
+All           4259.       340
+Matched (ESS)  552.37     313
+Matched       1314.       313
+Unmatched     2945.        27
+Discarded        0.         0
+
+
+> ## Effect of broadband on media choice
+> conmedia <- glm(conmedia>0~pid2*broadband+interest_following+income+race+educ+age+gender_respondent_x, data .... [TRUNCATED] 
+
+> libmedia <- glm(libmedia>0~pid2*broadband+interest_following+income+race+educ+age+gender_respondent_x, data=match.data(matched),weight=weights,famil .... [TRUNCATED] 
+
+> # Export effects to data.frame using effects package  
+> c1 <- (effect(conmedia,term="pid2*broadband"))
+
+> l1 <- (effect(libmedia,term="pid2*broadband"))
+
+> ############################ 
+> ## ggplot                 ##
+> ############################ 
+> forggplot <- rbind(
++   data.frame(y=inv.logit(c1$fit .... [TRUNCATED] 
+
+> ### Code to switch facet_strips
+> switch_facet_strip <- function(p, switch = c("x", "y")) {
++   
++   require(gtable)
++   rbind_gtable <- gtable:::rb .... [TRUNCATED] 
+
+> ###
+> levels(forggplot$pid) <- c("Democrats","Independents","Republicans")
+
+> ggthemr("fresh")
+Fehler in ggthemr("fresh") : konnte Funktion "ggthemr" nicht finden
+Zusätzlich: Warnmeldungen:
+1: package ‘ggthemr’ is not available (for R version 3.6.3) 
+2: 'BiocManager' not available.  Could not check Bioconductor.
+
+Please use `install.packages('BiocManager')` and then retry. 
+3: In p_install(package, character.only = TRUE, ...) : 
+4: In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  es gibt kein Paket namens ‘ggthemr’
+5: In pacman::p_load(gtools, Hmisc, plyr, stargazer, cem, MatchIt,  :
+  Failed to install/load:
+ggthemr
+6: In eval(family$initialize) : non-integer #successes in a binomial glm!
+7: In eval(family$initialize) : non-integer #successes in a binomial glm!
+
+> if (!require("pacman")) install.packages("pacman")
+
+> pacman::p_load(ggthemes,ggplot2)
+
+> ## Script to create graph of ROW by state
+> bbindex <- read.csv("bbindex.csv")
+
+> bbindex$state <- gsub("_"," ",bbindex$State)
+
+> bbindex$state <-  factor(bbindex$state,levels=as.character(bbindex$state))
+
+> ggplot(na.omit(bbindex),aes(y=state,x=Total))+geom_point()+xlab("ROW Index")+ylab("")+theme_calc()
+
+> ggsave("bbindex.pdf",width=6,height=8)
+
+> ##--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---++
+> ##           							
+> ##	Validation Checks of ROW
+> ##	for Hostile Audience, AJPS
+> ##  Yphtac .... [TRUNCATED] 
+
+> pacman::p_load(AER, ivpack,texreg)
+
+> ## rescale items to lie between 0 and 1
+> zero1 <- function(x, minx=NA, maxx=NA){
++   res <- NA
++   if(is.na(minx)) res <- (x - min(x,na.rm=T))/(max .... [TRUNCATED] 
+
+> #### ROW related to state ideology?
+> bbindex <- read.csv("bbindex.csv")
+
+> bbindex$state <- gsub("_"," ",bbindex$State)
+
+> bbindex$State <- bbindex$state
+
+> stateideo <- read.csv("T_S_ideologystate.csv")
+
+> stateideo$state <- state.name[match(stateideo$abb,state.abb)]
+
+> check1 <- merge(stateideo,bbindex,by="state")
+
+> summary(lm(mrp_estimate~log(Total),check1))
+
+Call:
+lm(formula = mrp_estimate ~ log(Total), data = check1)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-0.4280 -0.1270  0.0226  0.1509  0.2973 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)
+(Intercept)  0.046362   0.080764   0.574    0.569
+log(Total)  -0.003704   0.025207  -0.147    0.884
+
+Residual standard error: 0.1856 on 48 degrees of freedom
+Multiple R-squared:  0.0004496,	Adjusted R-squared:  -0.02037 
+F-statistic: 0.02159 on 1 and 48 DF,  p-value: 0.8838
+
+
+> ### Check 2: Governor related to ROW
+> data <- read.csv("Partisan_Balance_For_Use2011_06_09b.csv")
+
+> # Merge the two
+> all <- merge(bbindex,data,by="state")
+
+> all$repgov <- all$govparty_c==1
+
+> ### Governor's Party
+> l1 <- glm(repgov~log(Total),data=subset(all,year==1996),family="binomial")
+
+> l2 <- glm(repgov~log(Total),data=subset(all,year==1998),family="binomial")
+
+> l3 <- glm(repgov~log(Total),data=subset(all,year==2000),family="binomial")
+
+> l4 <- glm(repgov~log(Total),data=subset(all,year==2002),family="binomial")
+
+> l5 <- glm(repgov~log(Total),data=subset(all,year==2004),family="binomial")
+
+> l6 <- glm(repgov~log(Total),data=subset(all,year==2006),family="binomial")
+
+> l7 <- glm(repgov~log(Total),data=subset(all,year==2008),family="binomial")
+
+> meanb <- cbind(l1$coefficients[2],
++             l2$coefficients[2],
++             l3$coefficients[2],
++             l4$coefficients[2],
++           .... [TRUNCATED] 
+
+> meanp <- cbind(summary(l1)$coefficients[2,4],
++             summary(l2)$coefficients[2,4],
++             summary(l3)$coefficients[2,4],
++            .... [TRUNCATED] 
+
+> mean(meanb)
+[1] 0.1862579
+
+> mean(meanp)
+[1] 0.5755074
+
+> ### Check 3: Legislature Ideology related to ROW
+> load("shor mccarty 1993-2013 state aggregate data public July 2014.RData")
+
+> x$state <- state.name[match(x$st,state.abb)]
+
+> # Merge the two
+> ideoleg <- merge(bbindex,x,by="state")
+
+> l1 <- lm(sen_chamber  ~log(Total),data=subset(ideoleg,year==1996))
+
+> l2 <- lm(sen_chamber  ~log(Total),data=subset(ideoleg,year==1998))
+
+> l3 <- lm(sen_chamber  ~log(Total),data=subset(ideoleg,year==2000))
+
+> l4 <- lm(sen_chamber  ~log(Total),data=subset(ideoleg,year==2002))
+
+> l5 <- lm(sen_chamber  ~log(Total),data=subset(ideoleg,year==2004))
+
+> l6 <- lm(sen_chamber  ~log(Total),data=subset(ideoleg,year==2006))
+
+> l7 <- lm(sen_chamber  ~log(Total),data=subset(ideoleg,year==2008))
+
+> ll <- cbind(l1$coefficients[2],
++             l2$coefficients[2],
++             l3$coefficients[2],
++             l4$coefficients[2],
++              .... [TRUNCATED] 
+
+> senmeanrel <- mean(ll)
+
+> ll <- cbind(summary(l1)$coefficients[2,4],
++             summary(l2)$coefficients[2,4],
++             summary(l3)$coefficients[2,4],
++             s .... [TRUNCATED] 
+
+> senmeanp <- mean(ll)
+
+> ####
+> l1 <- lm(hou_chamber  ~log(Total),data=subset(ideoleg,year==1996))
+
+> l2 <- lm(hou_chamber  ~log(Total),data=subset(ideoleg,year==1998))
+
+> l3 <- lm(hou_chamber  ~log(Total),data=subset(ideoleg,year==2000))
+
+> l4 <- lm(hou_chamber  ~log(Total),data=subset(ideoleg,year==2002))
+
+> l5 <- lm(hou_chamber  ~log(Total),data=subset(ideoleg,year==2004))
+
+> l6 <- lm(hou_chamber  ~log(Total),data=subset(ideoleg,year==2006))
+
+> l7 <- lm(hou_chamber  ~log(Total),data=subset(ideoleg,year==2008))
+
+> ll <- cbind(l1$coefficients[2],
++             l2$coefficients[2],
++             l3$coefficients[2],
++             l4$coefficients[2],
++              .... [TRUNCATED] 
+
+> houmeanrel <- mean(ll)
+
+> ll <- cbind(summary(l1)$coefficients[2,4],
++             summary(l2)$coefficients[2,4],
++             summary(l3)$coefficients[2,4],
++             s .... [TRUNCATED] 
+
+> houmeanp <- mean(ll)
+
+> ##################### ROW related to income
+> income <- read.csv("medianincomebystate.csv")
+
+> # merge income and ROW
+> statestuff <- merge(income,bbindex,by="State")
+
+> l1 <- (lm(log(X1996.income)~log(Total),statestuff))
+
+> l5 <- (lm(log(X2000.income)~log(Total),statestuff))
+
+> l9 <- (lm(log(X2004.income)~log(Total),statestuff))
+
+> l13 <- (lm(log(X2008.income)~log(Total),statestuff))
+
+> ll <- cbind(summary(l1)$coefficients[2,1:4],
++             summary(l5)$coefficients[2,1:4],
++             summary(l9)$coefficients[2,1:4],
++         .... [TRUNCATED] 
+
+> mean(ll[1,])  
+[1] 0.02007212
+
+> mean(ll[4,])             
+[1] 0.3868203
+
+> ##################### ROW related to Education?
+> education <- read.csv("education.csv")
+
+> educationbbindex <- merge(education,bbindex, by="State")
+
+> summary(lm(log(Total)~(bachelors.1990),educationbbindex))
+
+Call:
+lm(formula = log(Total) ~ (bachelors.1990), data = educationbbindex)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.8918 -0.7045  0.0199  0.8066  2.0219 
+
+Coefficients:
+               Estimate Std. Error t value Pr(>|t|)   
+(Intercept)     2.46559    0.72637   3.394  0.00137 **
+bachelors.1990  0.02786    0.03553   0.784  0.43684   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.047 on 49 degrees of freedom
+Multiple R-squared:  0.01239,	Adjusted R-squared:  -0.007768 
+F-statistic: 0.6146 on 1 and 49 DF,  p-value: 0.4368
+
+
+> summary(lm(log(Total)~(bachelors.2000),educationbbindex))
+
+Call:
+lm(formula = log(Total) ~ (bachelors.2000), data = educationbbindex)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.82528 -0.79964  0.06011  0.74891  2.02564 
+
+Coefficients:
+               Estimate Std. Error t value Pr(>|t|)   
+(Intercept)     2.21194    0.76017   2.910  0.00543 **
+bachelors.2000  0.03370    0.03099   1.088  0.28212   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.041 on 49 degrees of freedom
+Multiple R-squared:  0.02357,	Adjusted R-squared:  0.003641 
+F-statistic: 1.183 on 1 and 49 DF,  p-value: 0.2821
+
+
+> #### State level ROW related 2000 Affpol
+> load("naes200aff.RData")
+
+> naes2000aff$state <-   state.name[match(naes2000aff$state,state.abb)]
+
+> naes2000aff <- merge(naes2000aff,bbindex, by="state")
+
+> summary(lm(naes2000aff$inout~log(naes2000aff$Total)))
+
+Call:
+lm(formula = naes2000aff$inout ~ log(naes2000aff$Total))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.065894 -0.014854 -0.000842  0.022043  0.052747 
+
+Coefficients:
+                       Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            0.336577   0.013177  25.542   <2e-16 ***
+log(naes2000aff$Total) 0.004729   0.004088   1.157    0.253    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.0298 on 46 degrees of freedom
+Multiple R-squared:  0.02827,	Adjusted R-squared:  0.00715 
+F-statistic: 1.338 on 1 and 46 DF,  p-value: 0.2533
+
+
+> ##--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---++
+> ##           							
+> ##	ComScore Providers Graph  	
+> ##	Yphtach Lelkes						
+> ## 	Last Edit .... [TRUNCATED] 
+
+> library(ggthemr)
+Fehler in library(ggthemr) : es gibt kein Paket namens ‘ggthemr’
+
+> rm(list=c(ls()))
+
+> ##--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---++
+> ##           							
+> ##	Does broadband affect some countes mre than others?
+> ##	for Hostile  .... [TRUNCATED] 
+
+> pacman::p_load(ivpack,texreg)
+
+> ## rescale items to lie between 0 and 1
+> zero1 <- function(x, minx=NA, maxx=NA){
++   res <- NA
++   if(is.na(minx)) res <- (x - min(x,na.rm=T))/(max .... [TRUNCATED] 
+
+> load("mergedcounty.RData")
+
+> names(countyproviders)
+ [1] "fipscode"         "state"            "year"             "density"         
+ [5] "providers"        "Total"            "Deployment"       "Supply"          
+ [9] "Demand"           "HHINC"            "percent_male"     "percent_white"   
+[13] "percent_black"    "lowed"            "region"           "unemploymentrate"
+[17] "typography"       "slope"            "road"            
+
+> countyproviders <- na.omit(countyproviders[,1:16])
+
+> who <- lm(providers~as.factor(year)+log(Total)+region*log(Total)+percent_black*log(Total)+percent_white*log(Total)+percent_male*log(Total)+lowed*log .... [TRUNCATED] 
+
+> whoses <- cluster.robust.se(who,clusterid = droplevels(as.factor(na.omit(countyproviders)$state)))
+[1] "Cluster Robust Standard Errors"
+
+> texreg(l=list(who),,override.se =list(whoses[,2]),override.pval  =list(whoses[,4]),digits = 3, custom.coef.names = c("Intercept","Year: 2008","ROW ( ..." ... [TRUNCATED] 
+The table was written to the file 'who.tex'.
+
+
+> rm(list=c(ls()))
+
+> ##--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---++
+> ##           							
+> ##	Pew
+> ##	for Hostile Audience, AJPS
+> ##  Yphtach Lelkes						
+> ## 	 .... [TRUNCATED] 
+
+> pacman::p_load( gtools, stargazer,cem,MatchIt,xtable)
+
+> ## rescale items to lie between 0 and 1
+> zero1 <- function(x, minx=NA, maxx=NA){
++   res <- NA
++   if(is.na(minx)) res <- (x - min(x,na.rm=T))/(max .... [TRUNCATED] 
+
+> pew <- read.csv("CopyOfNov 2004 Post-Election_csv.csv")
+
+> formatch <- na.omit((with(pew,data.frame(broadband,blogs,onlinenews,income,age,race,educ1,interest,age1,sex=sex,pid))))
+
+> matched <- matchit(as.numeric(broadband)-1~age1+income+educ1+interest+race+pid+sex,data = formatch,method="cem")
+
+> outb <- glm(onlinenews==1|blogs==1~broadband,match.data(matched),family="binomial",weight=weights)
+
+> outc <- glm(onlinenews==1|blogs==1~broadband+age1+income+educ1+interest+race+pid+sex,match.data(matched),family="binomial",weight=weights)
+
+> fortabs <- summary(matched)
+
+> stargazer(outb,outc,covariate.labels = c("Highspeed Internet","Age: 2nd T","Age: 3rd T","Income, 2nd T","Income, 3rd T","Education: College","Educat ..." ... [TRUNCATED] 
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Fr., Nov 12, 2021 - 09:41:30
+\begin{tabular}{@{\extracolsep{5pt}}lcc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{2}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-3} 
+\\[-1.8ex] & \multicolumn{2}{c}{Visits Partisan Sites} \\ 
+\\[-1.8ex] & (1) & (2)\\ 
+\hline \\[-1.8ex] 
+ Highspeed Internet & 1.360$^{**}$ & 1.483$^{**}$ \\ 
+  & (0.654) & (0.677) \\ 
+  & & \\ 
+ Age: 2nd T &  & $-$0.483 \\ 
+  &  & (1.290) \\ 
+  & & \\ 
+ Age: 3rd T &  & 1.212$^{*}$ \\ 
+  &  & (0.657) \\ 
+  & & \\ 
+ Income, 2nd T &  & 1.714 \\ 
+  &  & (1.151) \\ 
+  & & \\ 
+ Income, 3rd T &  & 2.596 \\ 
+  &  & (1.628) \\ 
+  & & \\ 
+ Education: College &  & $-$1.275 \\ 
+  &  & (1.424) \\ 
+  & & \\ 
+ Education: Some College &  & $-$1.713 \\ 
+  &  & (1.219) \\ 
+  & & \\ 
+ Political Interest &  & $-$1.563 \\ 
+  &  & (1.084) \\ 
+  & & \\ 
+ Race: White &  & 1.456 \\ 
+  &  & (1.261) \\ 
+  & & \\ 
+ PID: Independent &  & $-$1.120 \\ 
+  &  & (0.789) \\ 
+  & & \\ 
+ PID: Republican &  & $-$1.737$^{**}$ \\ 
+  &  & (0.807) \\ 
+  & & \\ 
+ Female &  & 1.765$^{**}$ \\ 
+  &  & (0.737) \\ 
+  & & \\ 
+ Constant & $-$3.528$^{***}$ & $-$5.322$^{**}$ \\ 
+  & (0.595) & (2.314) \\ 
+  & & \\ 
+\hline \\[-1.8ex] 
+Observations & 248 & 248 \\ 
+Log Likelihood & $-$61.813 & $-$50.893 \\ 
+Akaike Inf. Crit. & 127.626 & 127.786 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{2}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+
+> f1 <- cbind(fortabs$sum.all[,1:2],fortabs$sum.matched[,1:2])
+
+> rownames(f1) <- c("Distance","Age, 1st T","Age, 2nd T","Age, 3rd T","Income 2nd T","Income 3rd T","Education: College","Education: Some college","In ..." ... [TRUNCATED] 
+Fehler in dimnames(x) <- dn : 
+  Länge von 'dimnames' [1] ungleich der Arrayausdehnung
+Zusätzlich: Warnmeldungen:
+1: In eval(family$initialize) : non-integer #successes in a binomial glm!
+2: In eval(family$initialize) : non-integer #successes in a binomial glm!
